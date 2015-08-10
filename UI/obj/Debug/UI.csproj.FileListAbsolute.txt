@@ -1,0 +1,341 @@
+E:\Projects\FinalWeb\UI\bin\UI.dll
+E:\Projects\FinalWeb\UI\bin\UI.pdb
+E:\Projects\FinalWeb\UI\bin\BLL.dll
+E:\Projects\FinalWeb\UI\bin\Common.dll
+E:\Projects\FinalWeb\UI\bin\DI.dll
+E:\Projects\FinalWeb\UI\bin\IBLL.dll
+E:\Projects\FinalWeb\UI\bin\Login.dll
+E:\Projects\FinalWeb\UI\bin\Microsoft.Web.Infrastructure.dll
+E:\Projects\FinalWeb\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Projects\FinalWeb\UI\bin\MODEL.dll
+E:\Projects\FinalWeb\UI\bin\MVC.Helper.dll
+E:\Projects\FinalWeb\UI\bin\Newtonsoft.Json.dll
+E:\Projects\FinalWeb\UI\bin\PersonalManger.dll
+E:\Projects\FinalWeb\UI\bin\System.Web.Helpers.dll
+E:\Projects\FinalWeb\UI\bin\System.Web.Mvc.dll
+E:\Projects\FinalWeb\UI\bin\System.Web.Optimization.dll
+E:\Projects\FinalWeb\UI\bin\System.Web.Razor.dll
+E:\Projects\FinalWeb\UI\bin\System.Web.WebPages.Deployment.dll
+E:\Projects\FinalWeb\UI\bin\System.Web.WebPages.dll
+E:\Projects\FinalWeb\UI\bin\System.Web.WebPages.Razor.dll
+E:\Projects\FinalWeb\UI\bin\IDAL.dll
+E:\Projects\FinalWeb\UI\bin\Spring.Core.dll
+E:\Projects\FinalWeb\UI\bin\EntityFramework.dll
+E:\Projects\FinalWeb\UI\bin\Common.Logging.dll
+E:\Projects\FinalWeb\UI\bin\BLL.pdb
+E:\Projects\FinalWeb\UI\bin\Common.pdb
+E:\Projects\FinalWeb\UI\bin\DI.pdb
+E:\Projects\FinalWeb\UI\bin\IBLL.pdb
+E:\Projects\FinalWeb\UI\bin\Login.pdb
+E:\Projects\FinalWeb\UI\bin\MODEL.pdb
+E:\Projects\FinalWeb\UI\bin\MVC.Helper.pdb
+E:\Projects\FinalWeb\UI\bin\PersonalManger.pdb
+E:\Projects\FinalWeb\UI\bin\Newtonsoft.Json.xml
+E:\Projects\FinalWeb\UI\bin\System.Web.Helpers.xml
+E:\Projects\FinalWeb\UI\bin\System.Web.Mvc.xml
+E:\Projects\FinalWeb\UI\bin\System.Web.Razor.xml
+E:\Projects\FinalWeb\UI\bin\System.Web.WebPages.xml
+E:\Projects\FinalWeb\UI\bin\System.Web.WebPages.Deployment.xml
+E:\Projects\FinalWeb\UI\bin\System.Web.WebPages.Razor.xml
+E:\Projects\FinalWeb\UI\bin\IDAL.pdb
+E:\Projects\FinalWeb\UI\bin\EntityFramework.xml
+E:\Projects\FinalWeb\UI\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\Projects\FinalWeb\UI\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\Projects\FinalWeb\UI\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\Projects\FinalWeb\UI\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\Projects\FinalWeb\UI\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\Projects\FinalWeb\UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\Projects\FinalWeb\UI\bin\zh-Hans\EntityFramework.resources.dll
+E:\Projects\FinalWeb\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+E:\Projects\FinalWeb\UI\obj\Debug\UI.dll
+E:\Projects\FinalWeb\UI\obj\Debug\UI.pdb
+E:\FinalWeb\UI\bin\UI.dll
+E:\FinalWeb\UI\bin\UI.pdb
+E:\FinalWeb\UI\bin\BLL.dll
+E:\FinalWeb\UI\bin\Common.dll
+E:\FinalWeb\UI\bin\DI.dll
+E:\FinalWeb\UI\bin\IBLL.dll
+E:\FinalWeb\UI\bin\Login.dll
+E:\FinalWeb\UI\bin\Microsoft.Web.Infrastructure.dll
+E:\FinalWeb\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\FinalWeb\UI\bin\MODEL.dll
+E:\FinalWeb\UI\bin\MVC.Helper.dll
+E:\FinalWeb\UI\bin\Newtonsoft.Json.dll
+E:\FinalWeb\UI\bin\PersonalManger.dll
+E:\FinalWeb\UI\bin\System.Web.Helpers.dll
+E:\FinalWeb\UI\bin\System.Web.Mvc.dll
+E:\FinalWeb\UI\bin\System.Web.Optimization.dll
+E:\FinalWeb\UI\bin\System.Web.Razor.dll
+E:\FinalWeb\UI\bin\System.Web.WebPages.Deployment.dll
+E:\FinalWeb\UI\bin\System.Web.WebPages.dll
+E:\FinalWeb\UI\bin\System.Web.WebPages.Razor.dll
+E:\FinalWeb\UI\bin\IDAL.dll
+E:\FinalWeb\UI\bin\Spring.Core.dll
+E:\FinalWeb\UI\bin\EntityFramework.dll
+E:\FinalWeb\UI\bin\Common.Logging.dll
+E:\FinalWeb\UI\bin\BLL.pdb
+E:\FinalWeb\UI\bin\Common.pdb
+E:\FinalWeb\UI\bin\DI.pdb
+E:\FinalWeb\UI\bin\IBLL.pdb
+E:\FinalWeb\UI\bin\Login.pdb
+E:\FinalWeb\UI\bin\MODEL.pdb
+E:\FinalWeb\UI\bin\MVC.Helper.pdb
+E:\FinalWeb\UI\bin\PersonalManger.pdb
+E:\FinalWeb\UI\bin\Newtonsoft.Json.xml
+E:\FinalWeb\UI\bin\System.Web.Helpers.xml
+E:\FinalWeb\UI\bin\System.Web.Mvc.xml
+E:\FinalWeb\UI\bin\System.Web.Razor.xml
+E:\FinalWeb\UI\bin\System.Web.WebPages.xml
+E:\FinalWeb\UI\bin\System.Web.WebPages.Deployment.xml
+E:\FinalWeb\UI\bin\System.Web.WebPages.Razor.xml
+E:\FinalWeb\UI\bin\IDAL.pdb
+E:\FinalWeb\UI\bin\EntityFramework.xml
+E:\FinalWeb\UI\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\FinalWeb\UI\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\FinalWeb\UI\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\FinalWeb\UI\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\FinalWeb\UI\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\FinalWeb\UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\FinalWeb\UI\bin\zh-Hans\EntityFramework.resources.dll
+E:\FinalWeb\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+E:\FinalWeb\UI\obj\Debug\UI.dll
+E:\FinalWeb\UI\obj\Debug\UI.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\UI.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\UI.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\BLL.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\Common.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\DALMSSQL.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\DI.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\IBLL.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\Login.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\MODEL.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\MVC.Helper.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\PersonalManger.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.Helpers.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.Mvc.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.Optimization.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.Razor.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.WebPages.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\IDAL.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\EntityFramework.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\Spring.Core.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\Common.Logging.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\BLL.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\Common.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\DALMSSQL.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\DI.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\IBLL.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\Login.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\MODEL.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\MVC.Helper.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\PersonalManger.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.Helpers.xml
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.Razor.xml
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.WebPages.xml
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\July\Desktop\FinalWeb\UI\bin\IDAL.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\EntityFramework.xml
+C:\Users\July\Desktop\FinalWeb\UI\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\July\Desktop\FinalWeb\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\July\Desktop\FinalWeb\UI\obj\Debug\UI.dll
+C:\Users\July\Desktop\FinalWeb\UI\obj\Debug\UI.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\Duty.dll
+C:\Users\July\Desktop\FinalWeb\UI\bin\Duty.pdb
+C:\Users\July\Desktop\FinalWeb\UI\bin\System.Web.Mvc.xml
+C:\Users\July\Desktop\FinalWeb\UI\bin\Newtonsoft.Json.dll
+F:\实验室网站方刚\FinalWeb\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+F:\实验室网站方刚\FinalWeb\UI\bin\UI.dll.config
+F:\实验室网站方刚\FinalWeb\UI\bin\UI.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\UI.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\BLL.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\Common.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\DALMSSQL.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\DI.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\Duty.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\IBLL.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\Login.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\Microsoft.Web.Infrastructure.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\MODEL.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\MVC.Helper.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\Newtonsoft.Json.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\Permission.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\PersonalManger.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Net.Http.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Net.Http.WebRequest.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.Helpers.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.Http.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.Http.WebHost.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.Mvc.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.Optimization.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.Razor.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.WebPages.Deployment.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.WebPages.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.WebPages.Razor.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\IDAL.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\EntityFramework.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\Spring.Core.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\NPOI.HSSF.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\NPOI.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Net.Http.Formatting.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\Common.Logging.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\NPOI.DDF.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\NPOI.Util.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\NPOI.POIFS.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\NPOI.HPSF.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\BLL.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\Common.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\DALMSSQL.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\DI.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\Duty.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\IBLL.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\Login.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\MODEL.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\MVC.Helper.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\Permission.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\PersonalManger.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.Helpers.xml
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.Http.xml
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.Http.WebHost.xml
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.Mvc.xml
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.Razor.xml
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.WebPages.xml
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.WebPages.Deployment.xml
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Web.WebPages.Razor.xml
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Net.Http.xml
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Net.Http.WebRequest.xml
+F:\实验室网站方刚\FinalWeb\UI\bin\IDAL.pdb
+F:\实验室网站方刚\FinalWeb\UI\bin\System.Net.Http.Formatting.xml
+F:\实验室网站方刚\FinalWeb\UI\bin\zh-Hans\System.Web.Http.resources.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\zh-Hans\System.Net.Http.resources.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+F:\实验室网站方刚\FinalWeb\UI\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\实验室网站方刚\FinalWeb\UI\obj\Debug\UI.dll
+F:\实验室网站方刚\FinalWeb\UI\obj\Debug\UI.pdb
+F:\FinalWeb\FinalWeb\UI\bin\UI.dll
+F:\FinalWeb\FinalWeb\UI\bin\UI.pdb
+F:\FinalWeb\FinalWeb\UI\bin\BLL.dll
+F:\FinalWeb\FinalWeb\UI\bin\Common.dll
+F:\FinalWeb\FinalWeb\UI\bin\DALMSSQL.dll
+F:\FinalWeb\FinalWeb\UI\bin\DI.dll
+F:\FinalWeb\FinalWeb\UI\bin\Duty.dll
+F:\FinalWeb\FinalWeb\UI\bin\IBLL.dll
+F:\FinalWeb\FinalWeb\UI\bin\Login.dll
+F:\FinalWeb\FinalWeb\UI\bin\Microsoft.QualityTools.Testing.Fakes.dll
+F:\FinalWeb\FinalWeb\UI\bin\Microsoft.Web.Infrastructure.dll
+F:\FinalWeb\FinalWeb\UI\bin\MODEL.dll
+F:\FinalWeb\FinalWeb\UI\bin\MVC.Helper.dll
+F:\FinalWeb\FinalWeb\UI\bin\Permission.dll
+F:\FinalWeb\FinalWeb\UI\bin\PersonalManger.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Net.Http.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Net.Http.WebRequest.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.Helpers.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.Http.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.Http.WebHost.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.Mvc.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.Optimization.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.Razor.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.Deployment.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.Razor.dll
+F:\FinalWeb\FinalWeb\UI\bin\IDAL.dll
+F:\FinalWeb\FinalWeb\UI\bin\EntityFramework.dll
+F:\FinalWeb\FinalWeb\UI\bin\Spring.Core.dll
+F:\FinalWeb\FinalWeb\UI\bin\NPOI.HSSF.dll
+F:\FinalWeb\FinalWeb\UI\bin\NPOI.dll
+F:\FinalWeb\FinalWeb\UI\bin\System.Net.Http.Formatting.dll
+F:\FinalWeb\FinalWeb\UI\bin\Common.Logging.dll
+F:\FinalWeb\FinalWeb\UI\bin\NPOI.DDF.dll
+F:\FinalWeb\FinalWeb\UI\bin\NPOI.Util.dll
+F:\FinalWeb\FinalWeb\UI\bin\NPOI.POIFS.dll
+F:\FinalWeb\FinalWeb\UI\bin\NPOI.HPSF.dll
+F:\FinalWeb\FinalWeb\UI\bin\BLL.pdb
+F:\FinalWeb\FinalWeb\UI\bin\Common.pdb
+F:\FinalWeb\FinalWeb\UI\bin\DALMSSQL.pdb
+F:\FinalWeb\FinalWeb\UI\bin\DI.pdb
+F:\FinalWeb\FinalWeb\UI\bin\Duty.pdb
+F:\FinalWeb\FinalWeb\UI\bin\IBLL.pdb
+F:\FinalWeb\FinalWeb\UI\bin\Login.pdb
+F:\FinalWeb\FinalWeb\UI\bin\MODEL.pdb
+F:\FinalWeb\FinalWeb\UI\bin\MVC.Helper.pdb
+F:\FinalWeb\FinalWeb\UI\bin\Permission.pdb
+F:\FinalWeb\FinalWeb\UI\bin\PersonalManger.pdb
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.Helpers.xml
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.Http.xml
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.Http.WebHost.xml
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.Mvc.xml
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.Razor.xml
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.xml
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.Deployment.xml
+F:\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.Razor.xml
+F:\FinalWeb\FinalWeb\UI\bin\System.Net.Http.xml
+F:\FinalWeb\FinalWeb\UI\bin\System.Net.Http.WebRequest.xml
+F:\FinalWeb\FinalWeb\UI\bin\IDAL.pdb
+F:\FinalWeb\FinalWeb\UI\bin\System.Net.Http.Formatting.xml
+F:\FinalWeb\FinalWeb\UI\bin\zh-Hans\System.Web.Http.resources.dll
+F:\FinalWeb\FinalWeb\UI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\FinalWeb\FinalWeb\UI\bin\zh-Hans\System.Net.Http.resources.dll
+F:\FinalWeb\FinalWeb\UI\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+F:\FinalWeb\FinalWeb\UI\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\FinalWeb\FinalWeb\UI\obj\Debug\UI.csprojFakesResolveAssemblyReference.cache
+F:\FinalWeb\FinalWeb\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+F:\FinalWeb\FinalWeb\UI\obj\Debug\UI.dll
+F:\FinalWeb\FinalWeb\UI\obj\Debug\UI.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\UI.dll.config
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\UI.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\UI.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\BLL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Common.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\DALMSSQL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\DI.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Duty.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\IBLL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Login.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Microsoft.Web.Infrastructure.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\MODEL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\MVC.Helper.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Newtonsoft.Json.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Permission.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\PersonalManger.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.Helpers.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.Mvc.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.Optimization.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.Razor.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.Deployment.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.Razor.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\IDAL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\EntityFramework.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Spring.Core.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\NPOI.HSSF.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\NPOI.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Common.Logging.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\NPOI.DDF.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\NPOI.Util.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\NPOI.POIFS.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\NPOI.HPSF.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\BLL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Common.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\DALMSSQL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\DI.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Duty.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\IBLL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Login.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\MODEL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\MVC.Helper.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Permission.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\PersonalManger.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.Helpers.xml
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.Mvc.xml
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.Razor.xml
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.xml
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.Deployment.xml
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.Web.WebPages.Razor.xml
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\IDAL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\obj\Debug\UI.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\obj\Debug\UI.pdb

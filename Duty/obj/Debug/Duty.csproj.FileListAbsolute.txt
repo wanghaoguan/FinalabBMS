@@ -1,0 +1,108 @@
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\Duty.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\Duty.pdb
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\Common.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.Mvc.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\Common.pdb
+C:\Users\July\Desktop\FinalWeb\Duty\obj\Debug\Duty.csprojResolveAssemblyReference.cache
+C:\Users\July\Desktop\FinalWeb\Duty\obj\Debug\Duty.dll
+C:\Users\July\Desktop\FinalWeb\Duty\obj\Debug\Duty.pdb
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\IBLL.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\MODEL.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\MVC.Helper.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\EntityFramework.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\DI.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\Spring.Core.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\Common.Logging.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\IBLL.pdb
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\MODEL.pdb
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\MVC.Helper.pdb
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\EntityFramework.xml
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\DI.pdb
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.Helpers.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.WebPages.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.Helpers.xml
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.Mvc.xml
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.WebPages.xml
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.Razor.dll
+C:\Users\July\Desktop\FinalWeb\Duty\bin\Debug\System.Web.Razor.xml
+F:\实验室网站方刚\FinalWeb\Duty\obj\Debug\Duty.csprojResolveAssemblyReference.cache
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\Duty.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\Duty.pdb
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\Common.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\IBLL.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\MODEL.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\MVC.Helper.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\System.Web.Helpers.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\System.Web.Razor.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\EntityFramework.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\DI.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\Spring.Core.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\Common.Logging.dll
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\Common.pdb
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\IBLL.pdb
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\MODEL.pdb
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\MVC.Helper.pdb
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\System.Web.Helpers.xml
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\System.Web.Razor.xml
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\EntityFramework.xml
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\DI.pdb
+F:\实验室网站方刚\FinalWeb\Duty\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站方刚\FinalWeb\Duty\obj\Debug\Duty.dll
+F:\实验室网站方刚\FinalWeb\Duty\obj\Debug\Duty.pdb
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\Duty.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\Duty.pdb
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\Common.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\IBLL.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\MODEL.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\MVC.Helper.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\System.Web.Helpers.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\System.Web.Razor.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\EntityFramework.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\DI.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\Spring.Core.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\Common.Logging.dll
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\Common.pdb
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\IBLL.pdb
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\MODEL.pdb
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\MVC.Helper.pdb
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\System.Web.Helpers.xml
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\System.Web.Razor.xml
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\EntityFramework.xml
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\DI.pdb
+F:\FinalWeb\FinalWeb\Duty\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\FinalWeb\FinalWeb\Duty\obj\Debug\Duty.csprojResolveAssemblyReference.cache
+F:\FinalWeb\FinalWeb\Duty\obj\Debug\Duty.dll
+F:\FinalWeb\FinalWeb\Duty\obj\Debug\Duty.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\Duty.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\Duty.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\Common.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\IBLL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\MODEL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\MVC.Helper.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\System.Web.Helpers.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\System.Web.Razor.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\EntityFramework.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\DI.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\Spring.Core.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\Common.Logging.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\Common.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\IBLL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\MODEL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\MVC.Helper.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\System.Web.Helpers.xml
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\System.Web.Razor.xml
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\EntityFramework.xml
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\DI.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\obj\Debug\Duty.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\obj\Debug\Duty.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\obj\Debug\Duty.pdb

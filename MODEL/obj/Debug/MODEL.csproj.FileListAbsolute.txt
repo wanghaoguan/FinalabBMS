@@ -1,0 +1,54 @@
+E:\Projects\FinalWeb\MODEL\bin\Debug\MODEL.dll.config
+E:\Projects\FinalWeb\MODEL\bin\Debug\MODEL.dll
+E:\Projects\FinalWeb\MODEL\bin\Debug\MODEL.pdb
+E:\Projects\FinalWeb\MODEL\bin\Debug\EntityFramework.dll
+E:\Projects\FinalWeb\MODEL\bin\Debug\EntityFramework.xml
+E:\Projects\FinalWeb\MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Projects\FinalWeb\MODEL\obj\Debug\MODEL.dll
+E:\Projects\FinalWeb\MODEL\obj\Debug\MODEL.pdb
+E:\Projects\FinalWeb\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+E:\FinalWeb\MODEL\bin\Debug\MODEL.dll.config
+E:\FinalWeb\MODEL\bin\Debug\MODEL.dll
+E:\FinalWeb\MODEL\bin\Debug\MODEL.pdb
+E:\FinalWeb\MODEL\bin\Debug\EntityFramework.dll
+E:\FinalWeb\MODEL\bin\Debug\EntityFramework.xml
+E:\FinalWeb\MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\FinalWeb\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+E:\FinalWeb\MODEL\obj\Debug\MODEL.dll
+E:\FinalWeb\MODEL\obj\Debug\MODEL.pdb
+C:\Users\July\Desktop\FinalWeb\MODEL\bin\Debug\MODEL.dll.config
+C:\Users\July\Desktop\FinalWeb\MODEL\bin\Debug\MODEL.dll
+C:\Users\July\Desktop\FinalWeb\MODEL\bin\Debug\MODEL.pdb
+C:\Users\July\Desktop\FinalWeb\MODEL\bin\Debug\EntityFramework.dll
+C:\Users\July\Desktop\FinalWeb\MODEL\bin\Debug\EntityFramework.xml
+C:\Users\July\Desktop\FinalWeb\MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\July\Desktop\FinalWeb\MODEL\obj\Debug\MODEL.dll
+C:\Users\July\Desktop\FinalWeb\MODEL\obj\Debug\MODEL.pdb
+C:\Users\July\Desktop\FinalWeb\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+F:\实验室网站方刚\FinalWeb\MODEL\bin\Debug\MODEL.dll.config
+F:\实验室网站方刚\FinalWeb\MODEL\bin\Debug\MODEL.dll
+F:\实验室网站方刚\FinalWeb\MODEL\bin\Debug\MODEL.pdb
+F:\实验室网站方刚\FinalWeb\MODEL\bin\Debug\EntityFramework.dll
+F:\实验室网站方刚\FinalWeb\MODEL\bin\Debug\EntityFramework.xml
+F:\实验室网站方刚\FinalWeb\MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站方刚\FinalWeb\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+F:\实验室网站方刚\FinalWeb\MODEL\obj\Debug\MODEL.dll
+F:\实验室网站方刚\FinalWeb\MODEL\obj\Debug\MODEL.pdb
+F:\FinalWeb\FinalWeb\MODEL\bin\Debug\MODEL.dll.config
+F:\FinalWeb\FinalWeb\MODEL\bin\Debug\MODEL.dll
+F:\FinalWeb\FinalWeb\MODEL\bin\Debug\MODEL.pdb
+F:\FinalWeb\FinalWeb\MODEL\bin\Debug\EntityFramework.dll
+F:\FinalWeb\FinalWeb\MODEL\bin\Debug\EntityFramework.xml
+F:\FinalWeb\FinalWeb\MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\FinalWeb\FinalWeb\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+F:\FinalWeb\FinalWeb\MODEL\obj\Debug\MODEL.dll
+F:\FinalWeb\FinalWeb\MODEL\obj\Debug\MODEL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\bin\Debug\MODEL.dll.config
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\bin\Debug\MODEL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\bin\Debug\MODEL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\bin\Debug\EntityFramework.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\bin\Debug\EntityFramework.xml
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\obj\Debug\MODEL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\obj\Debug\MODEL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache

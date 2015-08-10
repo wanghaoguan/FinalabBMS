@@ -1,0 +1,51 @@
+E:\Projects\FinalWeb\IDAL\bin\Debug\IDAL.dll
+E:\Projects\FinalWeb\IDAL\bin\Debug\IDAL.pdb
+E:\Projects\FinalWeb\IDAL\bin\Debug\EntityFramework.dll
+E:\Projects\FinalWeb\IDAL\bin\Debug\MODEL.dll
+E:\Projects\FinalWeb\IDAL\bin\Debug\MODEL.pdb
+E:\Projects\FinalWeb\IDAL\bin\Debug\EntityFramework.xml
+E:\Projects\FinalWeb\IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Projects\FinalWeb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+E:\Projects\FinalWeb\IDAL\obj\Debug\IDAL.dll
+E:\Projects\FinalWeb\IDAL\obj\Debug\IDAL.pdb
+E:\FinalWeb\IDAL\bin\Debug\IDAL.dll
+E:\FinalWeb\IDAL\bin\Debug\IDAL.pdb
+E:\FinalWeb\IDAL\bin\Debug\EntityFramework.dll
+E:\FinalWeb\IDAL\bin\Debug\MODEL.dll
+E:\FinalWeb\IDAL\bin\Debug\MODEL.pdb
+E:\FinalWeb\IDAL\bin\Debug\EntityFramework.xml
+E:\FinalWeb\IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\FinalWeb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+E:\FinalWeb\IDAL\obj\Debug\IDAL.dll
+E:\FinalWeb\IDAL\obj\Debug\IDAL.pdb
+C:\Users\July\Desktop\FinalWeb\IDAL\bin\Debug\IDAL.dll
+C:\Users\July\Desktop\FinalWeb\IDAL\bin\Debug\IDAL.pdb
+C:\Users\July\Desktop\FinalWeb\IDAL\bin\Debug\EntityFramework.dll
+C:\Users\July\Desktop\FinalWeb\IDAL\bin\Debug\MODEL.dll
+C:\Users\July\Desktop\FinalWeb\IDAL\bin\Debug\MODEL.pdb
+C:\Users\July\Desktop\FinalWeb\IDAL\bin\Debug\EntityFramework.xml
+C:\Users\July\Desktop\FinalWeb\IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\July\Desktop\FinalWeb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+C:\Users\July\Desktop\FinalWeb\IDAL\obj\Debug\IDAL.dll
+C:\Users\July\Desktop\FinalWeb\IDAL\obj\Debug\IDAL.pdb
+F:\实验室网站方刚\FinalWeb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+F:\实验室网站方刚\FinalWeb\IDAL\bin\Debug\IDAL.dll
+F:\实验室网站方刚\FinalWeb\IDAL\bin\Debug\IDAL.pdb
+F:\实验室网站方刚\FinalWeb\IDAL\bin\Debug\MODEL.dll
+F:\实验室网站方刚\FinalWeb\IDAL\bin\Debug\MODEL.pdb
+F:\实验室网站方刚\FinalWeb\IDAL\obj\Debug\IDAL.dll
+F:\实验室网站方刚\FinalWeb\IDAL\obj\Debug\IDAL.pdb
+F:\FinalWeb\FinalWeb\IDAL\bin\Debug\IDAL.dll
+F:\FinalWeb\FinalWeb\IDAL\bin\Debug\IDAL.pdb
+F:\FinalWeb\FinalWeb\IDAL\bin\Debug\MODEL.dll
+F:\FinalWeb\FinalWeb\IDAL\bin\Debug\MODEL.pdb
+F:\FinalWeb\FinalWeb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+F:\FinalWeb\FinalWeb\IDAL\obj\Debug\IDAL.dll
+F:\FinalWeb\FinalWeb\IDAL\obj\Debug\IDAL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IDAL\bin\Debug\IDAL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IDAL\bin\Debug\IDAL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IDAL\bin\Debug\MODEL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IDAL\bin\Debug\MODEL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IDAL\obj\Debug\IDAL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IDAL\obj\Debug\IDAL.pdb

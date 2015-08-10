@@ -1,0 +1,153 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddStu</title>
+    <!-- bootstrap的CSS文件-->
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <style>
+        .file {
+            position: relative;
+            display: inline-block;
+            background: #337AB7;
+            border: 1px solid #99D3F5;
+            border-radius: 4px;
+            padding: 4px 12px;
+            overflow: hidden;
+            color: #fff;
+            text-decoration: none;
+            text-indent: 0;
+            line-height: 26px;
+            width:200px;
+            text-align:center;
+        }
+
+            .file input {
+                position: absolute;
+                font-size: 100px;
+                right: 0;
+                top: 0;
+                opacity: 0;
+            }
+
+            .file:hover {
+                background: #1568AF;
+                border-color: #78C3F3;
+                color: #fff;
+                text-decoration: none;
+            }
+    </style>
+    <script type="text/javascript">
+        function hide() {
+            file = $("#fileup").val();
+            if (!/.(gif|jpg|jpeg|png|gif|jpg|png)$/.test(file)) {
+                alert("图片类型必须是.gif,jpeg,jpg,png中的一种");
+            }
+            else {
+                $("#UpLoadImg").submit();
+            }
+        }
+
+        /*htm5实现图片本地预览，js代码*/
+        function preImg(sourceId, targetId) {
+            if (typeof FileReader === 'undefined') {
+                alert('你的浏览器不支持...');
+                return;
+            }
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                var img = document.getElementById(targetId);
+                img.src = this.result;
+            }
+            reader.readAsDataURL(document.getElementById(sourceId).files[0]);
+        }
+    </script>
+</head>
+<body style="font-family: 'Microsoft YaHei'; background-color: #EDF1F9;">
+
+    <div class="panel panel-primary" style="width:800px;height:400px;margin:30px auto;">
+        <div class="panel-heading">
+            <h3 class="panel-title">新增成员</h3>
+        </div>
+        <div class="panel-body">
+            <form id="InformationForm" class="form-horizontal" method="post" action="/PersonalManger/CheckMember/AddStuData">
+                <div class="form-group" style="width:720px;margin-top:0 auto;">
+                        <label for="StuName" class="col-sm-2 control-label">姓名:</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" name="StuName" placeholder="姓名" required="required" maxlength="6">
+                        </div>
+                        <label for="StuNum" class="col-sm-2 control-label">学号:</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" name="StuNum" placeholder="学号" required="required">
+                        </div>
+                    </div>
+                <div class="form-group" style="width:720px;margin-top:0 auto;">
+                    <label for="LoginPwd" class="col-sm-2 control-label">登陆密码:</label>
+                    <div class="col-sm-4">
+                        <input type="password" class="form-control" name="LoginPwd" placeholder="登陆密码" required="required">
+                    </div>
+                    <label for="Gender" class="col-sm-2 control-label">性别:</label>
+                    <div class="col-sm-4">
+                        <select class="form-control" name="Gender">
+                            <option>男</option>
+                            <option>女</option>
+                        </select>
+                    </div>
+                </div><br />
+                <input type="submit" id="save" class="btn btn-info" style="width: 185px;height:38px;margin-left:300px;" value="保存" />
+            </form>
+            <div>
+                <div class="row">
+                    <h3 style="text-align:center;color:#ff6a00">批量信息导入</h3>
+                    <label class="col-md-1"></label>
+                    <h4 class="col-md-5">请先下载批量新增的Excel模板：</h4>
+                    <label class="col-md-2"></label>
+                    @using (Html.BeginForm("GetExcel", "CheckMember", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        <input type="submit" value="下载excel" class="btn btn-primary col-md-3" />
+                    }
+                    <label class="col-md-1"></label>
+                </div>
+                <div>
+                    <!--只有设置了enctype="multipart/form-data"才能上传文件-->
+                    @using (Html.BeginForm("BatchAdd", "CheckMember", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        <div class="row">
+                            <label class="col-md-1"></label>
+                            <h4 class="col-md-5">请您选择批量导入的Excel表：</h4>
+                            <label class="col-md-2"></label>
+                            <a href="javascript:;" class="file">
+                                选择文件
+                                <input id="FileUpload" type="file" name="files" style="height: 26px;width: 200px; opacity: 0;" />
+                            </a>
+                        </div>
+                        <div class="row">
+                            <label class="col-md-1"></label>
+                            <h4 class="col-md-5">请您开始导入Excel表：</h4>
+                            <label class="col-md-2"></label>
+                            <input id="btnImport" type="submit" value="批量导入" class="btn btn-primary col-md-3" />
+                            <label class="col-md-1"></label>
+                        </div>
+                    }
+                </div>
+            </div>
+            
+
+
+            <iframe name="submitIform" style="display:none;"></iframe>
+        </div>
+    </div>
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+E:\Projects\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.dll
+E:\Projects\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.pdb
+E:\Projects\FinalWeb\DALMSSQL\bin\Debug\EntityFramework.dll
+E:\Projects\FinalWeb\DALMSSQL\bin\Debug\IDAL.dll
+E:\Projects\FinalWeb\DALMSSQL\bin\Debug\MODEL.dll
+E:\Projects\FinalWeb\DALMSSQL\bin\Debug\IDAL.pdb
+E:\Projects\FinalWeb\DALMSSQL\bin\Debug\MODEL.pdb
+E:\Projects\FinalWeb\DALMSSQL\bin\Debug\EntityFramework.xml
+E:\Projects\FinalWeb\DALMSSQL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Projects\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+E:\Projects\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.dll
+E:\Projects\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.pdb
+E:\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.dll
+E:\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.pdb
+E:\FinalWeb\DALMSSQL\bin\Debug\EntityFramework.dll
+E:\FinalWeb\DALMSSQL\bin\Debug\IDAL.dll
+E:\FinalWeb\DALMSSQL\bin\Debug\MODEL.dll
+E:\FinalWeb\DALMSSQL\bin\Debug\IDAL.pdb
+E:\FinalWeb\DALMSSQL\bin\Debug\MODEL.pdb
+E:\FinalWeb\DALMSSQL\bin\Debug\EntityFramework.xml
+E:\FinalWeb\DALMSSQL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+E:\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.dll
+E:\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.pdb
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.dll
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.pdb
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\bin\Debug\EntityFramework.dll
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\bin\Debug\IDAL.dll
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\bin\Debug\MODEL.dll
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\bin\Debug\IDAL.pdb
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\bin\Debug\MODEL.pdb
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\bin\Debug\EntityFramework.xml
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.dll
+C:\Users\July\Desktop\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.pdb
+F:\实验室网站方刚\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.dll
+F:\实验室网站方刚\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.pdb
+F:\实验室网站方刚\FinalWeb\DALMSSQL\bin\Debug\IDAL.dll
+F:\实验室网站方刚\FinalWeb\DALMSSQL\bin\Debug\MODEL.dll
+F:\实验室网站方刚\FinalWeb\DALMSSQL\bin\Debug\IDAL.pdb
+F:\实验室网站方刚\FinalWeb\DALMSSQL\bin\Debug\MODEL.pdb
+F:\实验室网站方刚\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+F:\实验室网站方刚\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.dll
+F:\实验室网站方刚\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.pdb
+F:\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.dll
+F:\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.pdb
+F:\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\IDAL.dll
+F:\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\MODEL.dll
+F:\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\IDAL.pdb
+F:\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\MODEL.pdb
+F:\FinalWeb\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+F:\FinalWeb\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.dll
+F:\FinalWeb\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\IDAL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\MODEL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\IDAL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\bin\Debug\MODEL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.pdb

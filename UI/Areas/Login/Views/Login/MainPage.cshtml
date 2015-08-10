@@ -1,0 +1,90 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="~/Areas/Login/Images/web_logo.ico" media="screen" />
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Areas/Login/CSS/Index.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery.min.js"></script>
+    <script src="~/Areas/Login/JS/Index.js"></script>
+    <title>欢迎来到FINAL实验室</title>
+</head>
+<body>
+    <!-- 页首 -->
+    <div id="header">
+        <!-- Lab Logo And Name -->
+        <div title="FINAL实验室" id="header-left">
+            <!-- Logo -->
+            <div id="header-left-logo"></div>
+            <!-- Name -->
+            <div id="header-left-name">FINAL实验室</div>
+        </div>
+        
+        <!--  -->
+        <div id="header-right">
+            <div id="header-right-content">
+                <!-- Msg  --> 
+                <div id="header-msg-btn" >
+                </div>
+                <!-- Photo  -->
+                <div id="header-photo" style="border-radius:50% 50%">
+                    <img src="/HeadImg/final.png" style="border-radius:50% 50%;height:30px;width:30px"/>
+                </div>
+                <!-- Nickname -->
+                <div id="header-nickname" >
+                    <!--<a href="/PersonalManger/CheckMember/PersonPage"></a>-->
+                    @ViewBag.name
+                </div>
+                <!-- Logout -->
+                <div id="header-logout-btn" title="退出登陆" >
+                    <div id="header-logout-img" ></div>
+                    <a href="/Login/Login/Index" id="header-logout-text">退出</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- 左部收缩列表 -->
+    <div id="left">
+        <div class="menu" id="menu">
+        </div>       
+    </div>
+    <!--收缩按钮 ShrinkBotton-->
+     <div id="left-shrink-btn">
+    </div>
+
+    <!-- 主面板main -->
+    <div id="main">
+        <div class="top_nav" id="top-nav">
+            <div id="nav-body">
+                <ul id="nav-body-ul">
+                </ul>
+                <div style="width: 12px; height: 36px;  float: right; padding-top: 4px;margin-right:1px;" onmouseover="showClose()" onmouseout="oldClose()">
+                    <span onclick="CloseLeft();" style="cursor: pointer;color:#67a3a1" id="leftClose" title="关闭左侧所有页面">x</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_panel" id="main-panel">
+            <div id="panel-body-00" style="width: inherit; height: inherit;">
+                <iframe src="/Login/Login/Welcome?name=@ViewBag.name" style="border: 0px currentColor; border-image: none; width: 100%; height: 100%;"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <div id="footer">
+        Copyright ©2014-2015 FINAL LAB. All Rights Reserved
+    </div>
+</body>
+</html>
+
+

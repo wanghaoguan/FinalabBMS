@@ -1,0 +1,60 @@
+E:\Projects\FinalWeb\IBLL\bin\Debug\IBLL.dll
+E:\Projects\FinalWeb\IBLL\bin\Debug\IBLL.pdb
+E:\Projects\FinalWeb\IBLL\bin\Debug\MODEL.dll
+E:\Projects\FinalWeb\IBLL\bin\Debug\EntityFramework.dll
+E:\Projects\FinalWeb\IBLL\bin\Debug\MODEL.pdb
+E:\Projects\FinalWeb\IBLL\bin\Debug\EntityFramework.xml
+E:\Projects\FinalWeb\IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Projects\FinalWeb\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+E:\Projects\FinalWeb\IBLL\obj\Debug\IBLL.dll
+E:\Projects\FinalWeb\IBLL\obj\Debug\IBLL.pdb
+E:\FinalWeb\IBLL\bin\Debug\IBLL.dll
+E:\FinalWeb\IBLL\bin\Debug\IBLL.pdb
+E:\FinalWeb\IBLL\bin\Debug\MODEL.dll
+E:\FinalWeb\IBLL\bin\Debug\EntityFramework.dll
+E:\FinalWeb\IBLL\bin\Debug\MODEL.pdb
+E:\FinalWeb\IBLL\bin\Debug\EntityFramework.xml
+E:\FinalWeb\IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\FinalWeb\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+E:\FinalWeb\IBLL\obj\Debug\IBLL.dll
+E:\FinalWeb\IBLL\obj\Debug\IBLL.pdb
+C:\Users\July\Desktop\FinalWeb\IBLL\bin\Debug\IBLL.dll
+C:\Users\July\Desktop\FinalWeb\IBLL\bin\Debug\IBLL.pdb
+C:\Users\July\Desktop\FinalWeb\IBLL\bin\Debug\MODEL.dll
+C:\Users\July\Desktop\FinalWeb\IBLL\bin\Debug\EntityFramework.dll
+C:\Users\July\Desktop\FinalWeb\IBLL\bin\Debug\MODEL.pdb
+C:\Users\July\Desktop\FinalWeb\IBLL\bin\Debug\EntityFramework.xml
+C:\Users\July\Desktop\FinalWeb\IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\July\Desktop\FinalWeb\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+C:\Users\July\Desktop\FinalWeb\IBLL\obj\Debug\IBLL.dll
+C:\Users\July\Desktop\FinalWeb\IBLL\obj\Debug\IBLL.pdb
+F:\实验室网站方刚\FinalWeb\IBLL\bin\Debug\IBLL.dll
+F:\实验室网站方刚\FinalWeb\IBLL\bin\Debug\IBLL.pdb
+F:\实验室网站方刚\FinalWeb\IBLL\bin\Debug\MODEL.dll
+F:\实验室网站方刚\FinalWeb\IBLL\bin\Debug\EntityFramework.dll
+F:\实验室网站方刚\FinalWeb\IBLL\bin\Debug\MODEL.pdb
+F:\实验室网站方刚\FinalWeb\IBLL\bin\Debug\EntityFramework.xml
+F:\实验室网站方刚\FinalWeb\IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站方刚\FinalWeb\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+F:\实验室网站方刚\FinalWeb\IBLL\obj\Debug\IBLL.dll
+F:\实验室网站方刚\FinalWeb\IBLL\obj\Debug\IBLL.pdb
+F:\FinalWeb\FinalWeb\IBLL\bin\Debug\IBLL.dll
+F:\FinalWeb\FinalWeb\IBLL\bin\Debug\IBLL.pdb
+F:\FinalWeb\FinalWeb\IBLL\bin\Debug\MODEL.dll
+F:\FinalWeb\FinalWeb\IBLL\bin\Debug\EntityFramework.dll
+F:\FinalWeb\FinalWeb\IBLL\bin\Debug\MODEL.pdb
+F:\FinalWeb\FinalWeb\IBLL\bin\Debug\EntityFramework.xml
+F:\FinalWeb\FinalWeb\IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\FinalWeb\FinalWeb\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+F:\FinalWeb\FinalWeb\IBLL\obj\Debug\IBLL.dll
+F:\FinalWeb\FinalWeb\IBLL\obj\Debug\IBLL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\bin\Debug\IBLL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\bin\Debug\IBLL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\bin\Debug\MODEL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\bin\Debug\EntityFramework.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\bin\Debug\MODEL.pdb
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\bin\Debug\EntityFramework.xml
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\obj\Debug\IBLL.dll
+D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\obj\Debug\IBLL.pdb
