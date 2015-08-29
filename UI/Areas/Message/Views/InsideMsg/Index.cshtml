@@ -20,6 +20,7 @@
     <link href="~/Areas/Message/pathMenu/css/wheelmenu.css" rel="stylesheet" />
     <script src="~/Areas/Message/pathMenu/js/jquery.wheelmenu.js"></script>
     <link href="~/Areas/Message/pathMenu/css/pageMenu.css" rel="stylesheet" />
+    <script src="~/Areas/Message/js/Index.js"></script>
     <script>
         $(document).ready(function () {
             $(".wheel-button").wheelmenu({
@@ -68,9 +69,6 @@
                                     <th>
                                         删除
                                     </th>
-                                    @*<th >
-                彻底删除
-            </th>*@
                                     <th>
                                         转发
                                     </th>
@@ -120,7 +118,7 @@
                                             @{
                                                 if (str != "未读")
                                                 {
-                                                    @Ajax.ActionLink("标记未读", "SetStatus", "InsideMsg", new { userMessgeId = @sendViewModel.UserMessageId, sendId = @sendViewModel.SendId, receiveIsDelete = @sendViewModel.ReceiveIsDelete, isDraft = @sendViewModel.IsDraft, sendIsDelete = @sendViewModel.SendIsDelete, messageId = @sendViewModel.MessageId }, new AjaxOptions { UpdateTargetId = "messagaTable", HttpMethod = "Post" })
+                                                    @*@Ajax.ActionLink("标记未读", "SetStatus", "InsideMsg", new { userMessgeId = @sendViewModel.UserMessageId, sendId = @sendViewModel.SendId, receiveIsDelete = @sendViewModel.ReceiveIsDelete, isDraft = @sendViewModel.IsDraft, sendIsDelete = @sendViewModel.SendIsDelete, messageId = @sendViewModel.MessageId }, new AjaxOptions { UpdateTargetId = "messagaTable", HttpMethod = "Post" })*@
 
                                                     <a href="#" onclick="SetStatus(@sendViewModel.UserMessageId)">标记未读</a>
                                                 }

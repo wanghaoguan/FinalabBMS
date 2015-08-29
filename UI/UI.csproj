@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UI</RootNamespace>
     <AssemblyName>UI</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -32,6 +32,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -40,6 +41,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ionic.Zip">
@@ -54,6 +56,10 @@
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\OA项目\新版本\MVCOA\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FinalWeb.JoinUs\NPOI\NPOI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -169,11 +175,15 @@
     <Content Include="Areas\JoinUs\JS\question-manage-modify.js" />
     <Content Include="Areas\JoinUs\JS\question-manage-search.js" />
     <Content Include="Areas\Login\CSS\Index.css" />
+    <Content Include="Areas\Login\CSS\styles.css" />
     <Content Include="Areas\Login\CSS\welcome.css" />
+    <Content Include="Areas\Login\final\13.jpg" />
+    <Content Include="Areas\Login\Images\3.png" />
     <Content Include="Areas\Login\Images\background.png" />
+    <Content Include="Areas\Login\Images\page.png" />
     <Content Include="Areas\Login\Images\web_logo.ico" />
     <Content Include="Areas\Login\JS\Index.js" />
-    <Content Include="Areas\Login\JS\jquery-1.3.1.js" />
+    <Content Include="Areas\Login\JS\sketch.min.js" />
     <Content Include="Areas\Message\css\bootstrap-responsive.min.css" />
     <Content Include="Areas\Message\css\bootstrap.min.css" />
     <Content Include="Areas\Message\css\home.css" />
@@ -216,6 +226,9 @@
     <Content Include="Areas\Message\uploadify3.2\__MACOSX\._Change Log.txt" />
     <Content Include="Areas\Message\uploadify3.2\__MACOSX\._uploadify.swf" />
     <Content Include="Areas\PersonalManger\Images\back.ico" />
+    <Content Include="Areas\PersonalManger\JS\index.js" />
+    <Content Include="Areas\PersonalManger\JS\modernizr.js" />
+    <Content Include="Areas\PersonalManger\JS\prefixfree.min.js" />
     <Content Include="Areas\Task\CSS\bootstrap-theme.css" />
     <Content Include="Areas\Task\CSS\bootstrap-theme.min.css" />
     <Content Include="Areas\Task\CSS\bootstrap.css" />
@@ -610,20 +623,6 @@
     <Content Include="Areas\Task\JS\Eidtor\nicEditorIcons.gif" />
     <Content Include="Areas\Task\JS\JSHelper.js" />
     <Content Include="Areas\Task\JS\ModifyTask.js" />
-    <Content Include="Areas\Task\JS\My97DatePicker\calendar.js" />
-    <Content Include="Areas\Task\JS\My97DatePicker\config.js" />
-    <Content Include="Areas\Task\JS\My97DatePicker\lang\en.js" />
-    <Content Include="Areas\Task\JS\My97DatePicker\lang\zh-cn.js" />
-    <Content Include="Areas\Task\JS\My97DatePicker\lang\zh-tw.js" />
-    <Content Include="Areas\Task\JS\My97DatePicker\My97DatePicker.htm" />
-    <Content Include="Areas\Task\JS\My97DatePicker\skin\datePicker.gif" />
-    <Content Include="Areas\Task\JS\My97DatePicker\skin\default\datepicker.css" />
-    <Content Include="Areas\Task\JS\My97DatePicker\skin\default\img.gif" />
-    <Content Include="Areas\Task\JS\My97DatePicker\skin\WdatePicker.css" />
-    <Content Include="Areas\Task\JS\My97DatePicker\skin\whyGreen\bg.jpg" />
-    <Content Include="Areas\Task\JS\My97DatePicker\skin\whyGreen\datepicker.css" />
-    <Content Include="Areas\Task\JS\My97DatePicker\skin\whyGreen\img.gif" />
-    <Content Include="Areas\Task\JS\My97DatePicker\WdatePicker.js" />
     <Content Include="Areas\Task\JS\MyTask.js" />
     <Content Include="Areas\Task\JS\ReleaseHistory.js" />
     <Content Include="Areas\Task\JS\TaskCorrect.js" />
@@ -637,7 +636,6 @@
     <Content Include="Areas\Task\JS\uploadfiy\swfobject.js" />
     <Content Include="Areas\Task\JS\uploadfiy\uploadfiyHelper.js" />
     <Content Include="Areas\Task\JS\uploadfiy\uploadify.swf" />
-    <Content Include="Areas\Task\JS\WdatePicker.js" />
     <Content Include="bg.gif" />
     <Content Include="Boostrap\css\bootstrap-table.min.css" />
     <Content Include="Boostrap\css\bootstrap-theme.min.css" />
@@ -817,6 +815,21 @@
     <Content Include="Areas\Permission\Views\Role\RoleIndex.cshtml" />
     <Content Include="Areas\Permission\Views\Permission\HandlePermission.cshtml" />
     <Content Include="Areas\Permission\Views\Permission\PerIndex.cshtml" />
+    <Content Include="Areas\Message\uploadify3.2\check-exists.php" />
+    <Content Include="Areas\Message\uploadify3.2\index.php" />
+    <Content Include="Areas\Message\uploadify3.2\uploadify.php" />
+    <Content Include="Areas\Message\Views\InsideMsg\DraftBoxMenu.cshtml" />
+    <Content Include="Areas\Message\Views\InsideMsg\Index.cshtml" />
+    <Content Include="Areas\Message\Views\InsideMsg\MessageAddressMenu.cshtml" />
+    <Content Include="Areas\Message\Views\InsideMsg\MessageContent.cshtml" />
+    <Content Include="Areas\Message\Views\InsideMsg\MessageInfo.cshtml" />
+    <Content Include="Areas\Message\Views\InsideMsg\RecycleBoxMenu.cshtml" />
+    <Content Include="Areas\Message\Views\InsideMsg\SendBoxMenu.cshtml" />
+    <Content Include="Areas\Message\Views\InsideMsg\SendMessage.cshtml" />
+    <Content Include="Areas\Message\Views\Mail\Index.cshtml" />
+    <Content Include="Areas\Message\Views\SysMessage\Index.cshtml" />
+    <Content Include="Areas\Message\Views\SysMessage\MsgInfo.cshtml" />
+    <Content Include="Areas\Message\Views\Web.config" />
     <Content Include="Areas\JoinUs\Views\AnswerSheet\Index.cshtml" />
     <Content Include="Areas\JoinUs\Views\AnswerSheet\Lookpaper.cshtml" />
     <Content Include="Areas\JoinUs\Views\AnswerSheet\RaterPaper.cshtml" />
@@ -835,21 +848,9 @@
     <Content Include="Areas\JoinUs\Views\QuestionManage\Indextype.cshtml" />
     <Content Include="Areas\JoinUs\Views\QuestionManage\Modify.cshtml" />
     <Content Include="Areas\JoinUs\Views\Web.config" />
-    <Content Include="Areas\Message\uploadify3.2\check-exists.php" />
-    <Content Include="Areas\Message\uploadify3.2\index.php" />
-    <Content Include="Areas\Message\uploadify3.2\uploadify.php" />
-    <Content Include="Areas\Message\Views\InsideMsg\DraftBoxMenu.cshtml" />
-    <Content Include="Areas\Message\Views\InsideMsg\Index.cshtml" />
-    <Content Include="Areas\Message\Views\InsideMsg\MessageAddressMenu.cshtml" />
-    <Content Include="Areas\Message\Views\InsideMsg\MessageContent.cshtml" />
-    <Content Include="Areas\Message\Views\InsideMsg\MessageInfo.cshtml" />
-    <Content Include="Areas\Message\Views\InsideMsg\RecycleBoxMenu.cshtml" />
-    <Content Include="Areas\Message\Views\InsideMsg\SendBoxMenu.cshtml" />
-    <Content Include="Areas\Message\Views\InsideMsg\SendMessage.cshtml" />
-    <Content Include="Areas\Message\Views\Mail\Index.cshtml" />
-    <Content Include="Areas\Message\Views\SysMessage\Index.cshtml" />
-    <Content Include="Areas\Message\Views\SysMessage\MsgInfo.cshtml" />
-    <Content Include="Areas\Message\Views\Web.config" />
+    <Content Include="Areas\Permission\Views\Role\ReallyDelMsg.cshtml" />
+    <Content Include="Areas\Login\Views\Login\Index2.cshtml" />
+    <None Include="Properties\PublishProfiles\finlab-0819-1.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Areas\Login\CSS\Login.css" />
     <Content Include="Areas\Login\Images\index_icon.png" />
@@ -892,7 +893,6 @@
     <Content Include="uploads\积分宝项目简介.doc" />
     <Content Include="uploads\积分宝项目计划书.doc" />
     <Content Include="uploads\计通学院2015互联网创新创业大赛申报项目备案.docx" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="uploadfiyHelper.ashx" />
   </ItemGroup>
   <ItemGroup>
@@ -933,9 +933,9 @@
       <Project>{c4a10f50-3b53-4f5c-a655-cb027d17d365}</Project>
       <Name>Duty</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FinalWeb.Helper\FinalWeb.Helper.csproj">
-      <Project>{dab904f1-61eb-478a-b637-64e361ef12ff}</Project>
-      <Name>FinalWeb.Helper</Name>
+    <ProjectReference Include="..\FinalWeb.JoinUs\FinalWeb.JoinUs.csproj">
+      <Project>{c41eb2cf-b00d-4972-b550-1ff10a28041f}</Project>
+      <Name>FinalWeb.JoinUs</Name>
     </ProjectReference>
     <ProjectReference Include="..\IBLL\IBLL.csproj">
       <Project>{496d30d8-441f-4692-8d2c-846b9f0eaad2}</Project>

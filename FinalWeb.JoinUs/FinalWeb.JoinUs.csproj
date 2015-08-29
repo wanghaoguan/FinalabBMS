@@ -30,9 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Words, Version=6.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Aspose.Words">
+      <HintPath>..\libs\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging, Version=1.2.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\软件\学习资料\实验室网站\资料\Aspose.Words\Aspose.Words.dll</HintPath>
+      <HintPath>..\libs\Common.Logging.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\MVC.Helper\bin\Debug\EntityFramework.dll</HintPath>
@@ -43,24 +46,27 @@
     </Reference>
     <Reference Include="NPOI, Version=2.1.3.1, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>NPOI\NPOI.dll</HintPath>
+      <HintPath>..\libs\NPOI.dll</HintPath>
     </Reference>
     <Reference Include="NPOI.OOXML, Version=2.1.3.1, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>NPOI\NPOI.OOXML.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="NPOI.OpenXml4Net, Version=2.1.3.1, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>NPOI\NPOI.OpenXml4Net.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="NPOI.OpenXmlFormats, Version=2.1.3.1, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>NPOI\NPOI.OpenXmlFormats.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -85,10 +91,6 @@
       <Project>{025c57c0-832b-4cdd-9a92-189721560358}</Project>
       <Name>DI</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FinalWeb.Helper\FinalWeb.Helper.csproj">
-      <Project>{dab904f1-61eb-478a-b637-64e361ef12ff}</Project>
-      <Name>FinalWeb.Helper</Name>
-    </ProjectReference>
     <ProjectReference Include="..\IBLL\IBLL.csproj">
       <Project>{d6d9c597-c5ba-4188-b2bb-e6ff88e2e9b2}</Project>
       <Name>IBLL</Name>
@@ -97,27 +99,24 @@
       <Project>{0bbe8252-e283-467a-9153-dd5c0a1d4de1}</Project>
       <Name>MODEL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MVC.Helper\MVC.Helper.csproj">
+      <Project>{f4b1c110-8559-4061-8c18-fee4f9058784}</Project>
+      <Name>MVC.Helper</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
+    <None Include="模板3.doc" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="NPOI\ICSharpCode.SharpZipLib.dll" />
-    <Content Include="NPOI\NPOI.DDF.dll" />
+    <Content Include="NPOI\Newtonsoft.Json.dll" />
     <Content Include="NPOI\NPOI.dll" />
-    <Content Include="NPOI\NPOI.HPSF.dll" />
-    <Content Include="NPOI\NPOI.HSSF.dll" />
     <Content Include="NPOI\NPOI.OOXML.dll" />
     <Content Include="NPOI\NPOI.OOXML.XML" />
     <Content Include="NPOI\NPOI.OpenXml4Net.dll" />
     <Content Include="NPOI\NPOI.OpenXml4Net.XML" />
     <Content Include="NPOI\NPOI.OpenXmlFormats.dll" />
-    <Content Include="NPOI\NPOI.POIFS.dll" />
-    <Content Include="NPOI\NPOI.Util.dll" />
     <Content Include="NPOI\NPOI.XML" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="模板3.doc" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

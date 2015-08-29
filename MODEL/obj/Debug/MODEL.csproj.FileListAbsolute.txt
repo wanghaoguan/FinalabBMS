@@ -52,3 +52,29 @@ D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\bin\Debug\
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\obj\Debug\MODEL.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\obj\Debug\MODEL.pdb
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalWeb\MODEL\bin\Debug\MODEL.dll.config
+F:\实验室网站\FinalWeb\MODEL\bin\Debug\MODEL.dll
+F:\实验室网站\FinalWeb\MODEL\bin\Debug\MODEL.pdb
+F:\实验室网站\FinalWeb\MODEL\bin\Debug\EntityFramework.dll
+F:\实验室网站\FinalWeb\MODEL\bin\Debug\EntityFramework.xml
+F:\实验室网站\FinalWeb\MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站\FinalWeb\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalWeb\MODEL\obj\Debug\MODEL.dll
+F:\实验室网站\FinalWeb\MODEL\obj\Debug\MODEL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\MODEL.dll.config
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\MODEL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\MODEL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\EntityFramework.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\EntityFramework.xml
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\MODEL\obj\Debug\MODEL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\MODEL\obj\Debug\MODEL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\MODEL.dll.config
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\MODEL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\MODEL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\EntityFramework.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\EntityFramework.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\obj\Debug\MODEL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\obj\Debug\MODEL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache

@@ -20,6 +20,10 @@ namespace FinalWeb.JoinUs
         /// </summary>
         public ActionResult Index()
         {
+            if (Request.Params["IsNull"] != null)
+            {
+                Response.Write("<script>alert('空卷子不能发布!');</script>");
+            }
             int id;
             if (Request.Params["pageid"] == null)
             {
@@ -237,15 +241,22 @@ namespace FinalWeb.JoinUs
             //    OperateContext.Current.BLLSession.IT_PaperBLL.Modify(modelBefore, "IsPublished");
             //}
             //根据id查找对应model
-            MODEL.T_Paper model =
-                OperateContext.Current.BLLSession
-                .IPaperBLL.GetListBy(p => p.ID == paperId && p.typeId == id).First();
-            //修改为发布状态并更新到数据库
-            model.IsPublished = true;
-            OperateContext.Current.BLLSession.IPaperBLL.Modify(model, "IsPublished");
+            List<MODEL.T_PaperQuestion> listp = OperateContext.Current.BLLSession.IPaperQuestionBLL.GetListBy(p => p.PaperID == paperId).ToList();
+            if (listp.Count != 0)
+            {
+                MODEL.T_Paper model =
+                    OperateContext.Current.BLLSession
+                    .IPaperBLL.GetListBy(p => p.ID == paperId && p.typeId == id).First();
+                //修改为发布状态并更新到数据库
+                model.IsPublished = true;
+                OperateContext.Current.BLLSession.IPaperBLL.Modify(model, "IsPublished");
+                return Redirect("/JoinUs/PaperManage/Index?pageid=" + pageIndex);
+            }
+            else
+            {
+                return Redirect("/JoinUs/PaperManage/Index?IsNull=1&&pageid=" + pageIndex);
+            }
 
-
-            return Redirect("/JoinUs/PaperManage/Index?pageid=" + pageIndex);
         }
         #endregion
         /////

@@ -61,7 +61,7 @@
             }
         }
 
-        //判断这周是否已经输入
+        //判断这周是否已经录入了数据
         function JudgeWeek(week) {
             var thisweek=week.value;
             var trs = $("#tbody").children("tr");
@@ -77,13 +77,37 @@
                 }
             });
         }
-
+        ////判断这一行是否有相同的成员录入
+        //function JudgeOneRow(stu) {
+        //    var front = $(stu).parent().prev().children("select").children("option:selected").val();
+        //    if (stu.value == front) {
+        //        alert("本周这个成员已选择，请您重新选择！");
+        //    }
+        //}
+        //判断这个成员是否已经输入
         function JudgeOneRow(stu) {
-            var front = $(stu).parent().prev().children("select").children("option:selected").val();
-            if (stu.value == front) {
-                alert("本周这个成员已选择，请您重新选择！");
-            }
+            var thisStu = stu.value;
+            var stuobj = stu.selectedOptions[0];
+            var trs = $("#tbody").children("tr");
+            trs.each(function (index, element) {
+                var obj = $(element).children("td").children("select").children("option:selected");
+                var select1 = obj[0];
+                var select2 = obj[1];
+                if (stuobj != select1) {
+                    if (thisStu == select1.value) {
+                        alert("这个成员已经选过了，请您重新选择");
+                        return;
+                    }
+                }
+                if (stuobj != select2) {
+                    if (thisStu == select2.value) {
+                        alert("这个成员已经选过了，请您重新选择");
+                        return;
+                    }
+                }
+            });
         }
+
 
         //保存数据到数据库里
         function test() {
@@ -161,7 +185,7 @@
                             </select>
                         </th>
                         <td style="width:150px;">
-                            <select class="form-control input-sm"  id="SelectStu" style="width:100px;">
+                            <select class="form-control input-sm" id="SelectStu" style="width:100px;" onchange="JudgeOneRow(this)">
                                 @foreach (MODEL.DTO.MemberInformationDTO dto in ViewBag.Stu)
                                 {
                                     <option value="@dto.StuNum">@dto.StuName</option>

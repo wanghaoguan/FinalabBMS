@@ -61,7 +61,7 @@ namespace Task.Controllers
             //    taskCount[i] = iBLLSession.ITaskInformationBLL.GetMyTaskCount(stuNum, taskTypeList[i].TaskTypeId);
             //}
 
-            myTaskListComplete = iBLLSession.ITaskInformationBLL.GetPagedTaskList(taskPageIndex, taskPageSize, stuNum, true);
+            myTaskListComplete = iBLLSession.ITaskInformationBLL.GetPagedCompletedTaskList(taskPageIndex, taskPageSize, stuNum, true);
             int  myTaskListCompleteCount = iBLLSession.ITaskInformationBLL.GetMyTaskCount(stuNum,true);
             myTaskListNotComplete = iBLLSession.ITaskInformationBLL.GetPagedTaskList(taskPageIndex, taskPageSize, stuNum, false);
             int myTaskListNotCompleteCount = iBLLSession.ITaskInformationBLL.GetMyTaskCount(stuNum,false);

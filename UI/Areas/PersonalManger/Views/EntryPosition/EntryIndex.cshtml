@@ -19,9 +19,10 @@
     </style>
     <script type="text/javascript">
         function index() {
-            document.getElementById("form").onsubmit = false;
+            document.getElementById("myform").onsubmit = false;
             window.location = "/PersonalManger/EntryPosition/EntryChoose";
         }
+
         function sub() {
             var allcheck = document.getElementsByTagName("input");
             var count = 0;
@@ -34,22 +35,22 @@
                 alert("请您选中要删除的成员！");
                 return;
             }
-            document.getElementById("form").submit();
+            document.getElementById("myform").submit();
         }
     </script>
 </head>
 <body style="font-family: 'Microsoft YaHei'; background-color: rgb(237,241,249)">
     <div style="margin: 20px auto;width:800px;">
         @* -------------------表格----------------------------------------------------------*@
-        <form class="table-responsive" method="post" action="/PersonalManger/EntryPosition/GetCheckedData" id="form">
+        <form class="table-responsive" method="post" action="/PersonalManger/EntryPosition/GetCheckedData" id="myform" onsubmit="return issub(1);">
             <input type="hidden" value="@ViewBag.perid" name="entryWhat" />
             <table class="table table-bordered" id="table" style="font-family: 'Microsoft YaHei'">
-                <tr>
+                <tr >
                     @if (ViewBag.dep == 1)
                     {
-                        <td colspan="2" style="text-align:left;">
-                            <button class="btn btn-success" onclick="index()" style="width:100px;height:35px;">返回</button>
-                            <select name="dep">
+                        <td colspan="2" style="text-align:left;line-height:42px;">
+                            <button class="btn btn-primary" onclick="index()" style="width:80px;height:32px;" type="button">返回</button>
+                            <select name="dep" class="form-control"style="width:180px;height:32px;display:inherit;margin-top:8px;">
                                 <option value="10001">.NET应用开发部</option>
                                 <option value="10004">系统编程技术部</option>
                                 <option value="10002">手机应用开发部</option>
@@ -61,18 +62,18 @@
                     }
                     else
                     {
-                        <td colspan="2" style="text-align:left;">
-                            <button class="btn btn-success" onclick="index()" type="button" style="width:80px;height:35px;">返回</button>
+                        <td colspan="2" style="text-align:left;line-height:42px;">
+                            <button class="btn btn-primary" onclick="index()" type="button" style="width:80px;height:32px;">返回</button>
                         </td>
                     }
-                    <td style="text-align:right;"><button class="btn btn-success" type="button" onclick="sub()">提交录入</button></td>
+                    <td style="text-align:right;line-height:42px;"><button class="btn btn-primary" type="button" onclick="sub()" style="width:80px;height:32px;">提交录入</button></td>
                 </tr>
                     <tr class="">
                         <td>选择</td>
                         <td>学号</td>
                         <td>姓名</td>
                     </tr>
-                <tbody id="body">
+
                     @foreach (MODEL.T_MemberInformation mem in ViewBag.mem as List<MODEL.T_MemberInformation>)
                     {
                         <tr>
@@ -81,7 +82,7 @@
                             <td>@mem.StuName</td>
                         </tr>
                     }
-                </tbody>
+
             </table>
         </form>
 

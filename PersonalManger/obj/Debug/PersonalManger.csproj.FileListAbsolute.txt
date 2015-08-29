@@ -128,3 +128,39 @@ D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\PersonalManger\b
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\PersonalManger\obj\Debug\PersonalManger.csprojResolveAssemblyReference.cache
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\PersonalManger\obj\Debug\PersonalManger.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\PersonalManger\obj\Debug\PersonalManger.pdb
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\PersonalManger.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\PersonalManger.pdb
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\ChnCharInfo.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\Common.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\IBLL.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\MODEL.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\MVC.Helper.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\NPOI.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\NPOI.HSSF.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\NPOI.Util.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\EntityFramework.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\DI.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\Spring.Core.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\Common.Logging.dll
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\Common.pdb
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\IBLL.pdb
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\MODEL.pdb
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\MVC.Helper.pdb
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\EntityFramework.xml
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\DI.pdb
+F:\实验室网站\FinalWeb\PersonalManger\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站\FinalWeb\UI\bin\PersonalManger.dll
+F:\实验室网站\FinalWeb\UI\bin\PersonalManger.pdb
+F:\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.dll
+F:\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\PersonalManger.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\PersonalManger.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\PersonalManger.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\PersonalManger.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.csprojResolveAssemblyReference.cache
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.pdb

@@ -58,3 +58,33 @@ D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\bin\Debug\z
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\obj\Debug\IBLL.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IBLL\obj\Debug\IBLL.pdb
+F:\实验室网站\FinalWeb\IBLL\bin\Debug\IBLL.dll
+F:\实验室网站\FinalWeb\IBLL\bin\Debug\IBLL.pdb
+F:\实验室网站\FinalWeb\IBLL\bin\Debug\MODEL.dll
+F:\实验室网站\FinalWeb\IBLL\bin\Debug\EntityFramework.dll
+F:\实验室网站\FinalWeb\IBLL\bin\Debug\MODEL.pdb
+F:\实验室网站\FinalWeb\IBLL\bin\Debug\EntityFramework.xml
+F:\实验室网站\FinalWeb\IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.dll
+F:\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\IBLL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\IBLL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\MODEL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\EntityFramework.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\MODEL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\EntityFramework.xml
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\IBLL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\IBLL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\MODEL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\EntityFramework.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\MODEL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\EntityFramework.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.pdb

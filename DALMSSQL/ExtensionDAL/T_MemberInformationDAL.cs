@@ -30,11 +30,12 @@ namespace DALMSSQL
             DataTable dt = new DataTable();
             if (depart != 0)
             {
-                where += " and Department=" + depart;
+                where += " and Department=" + depart+" and StuNum!='FinalAdmin'";
                 dt = SqlHelper.ExecuteDataTable(where);
             }
             else
             {
+                where += " and StuNum!='FinalAdmin'";
                 dt = SqlHelper.ExecuteDataTable(where);
             }
             return dt;

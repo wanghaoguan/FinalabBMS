@@ -61,3 +61,30 @@ D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\bin\Deb
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.pdb
+F:\实验室网站\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.dll
+F:\实验室网站\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.pdb
+F:\实验室网站\FinalWeb\DALMSSQL\bin\Debug\IDAL.dll
+F:\实验室网站\FinalWeb\DALMSSQL\bin\Debug\MODEL.dll
+F:\实验室网站\FinalWeb\DALMSSQL\bin\Debug\IDAL.pdb
+F:\实验室网站\FinalWeb\DALMSSQL\bin\Debug\MODEL.pdb
+F:\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.dll
+F:\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\IDAL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\MODEL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\IDAL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\MODEL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\DALMSSQL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\IDAL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\MODEL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\IDAL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\bin\Debug\MODEL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.pdb

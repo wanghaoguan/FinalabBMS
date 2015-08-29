@@ -144,6 +144,27 @@ namespace Permission
         #endregion
 
 
+        //清空数据
+        #region 3.1清空数据首页
+        public ActionResult ReallyDelMsg()
+        {
+            return View();
+        } 
+        #endregion
+        #region 3.2真真的删除成员
+        public ActionResult DelStu()
+        {
+            //这里删除时还要先删除有主外键约束的
+            //OperateContext.Current.BLLSession.IRoleActBLL.DelBy(u)
+            if (OperateContext.Current.BLLSession.IMemberInformationBLL.DelBy(u => u.IsDelete == true) > 0)
+            {
+                return Content("<script>alert('删除成功！');window.location='/Permission/Role/ReallyDelMsg';</script>");
+            }
+            return Content("<script>alert('删除失败！');window.location='/Permission/Role/ReallyDelMsg';</script>");
+        } 
+        #endregion
+
+
         #region 处理异常 protected override void OnException(ExceptionContext filterContext)
         protected override void OnException(ExceptionContext filterContext)
         {

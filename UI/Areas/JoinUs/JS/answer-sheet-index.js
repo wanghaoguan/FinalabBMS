@@ -1,17 +1,41 @@
 ﻿/* 窗口载入绑定事件 */
 $(function () {
     getPageDateDefaul();
-    $("#prev").click(function () {
-        prev();
+   
+    
+
+    
+    $(function () {
+        $("#prev").click(function () {
+            prev();
+
+        });
+        var flag = $("#chk_all").is(':checked');
+        $("[name=chk_list]:checkbox").each(function () {
+            if (flag) {
+                $(this).attr("checked", true);
+            } else {
+                $(this).attr("checked", false);
+            }
+        });
     });
+    //$("#prev").click(function () {
+    //    prev();
+
+    //});
     $("#next").click(function () {
         next();
+      
     });
+
     $("#first").click(function () {
         first();
+       
     });
+
     $("#last").click(function () {
         last();
+      
     });
     $(".am-pagination-select select").change(function () {
         pagerChanged();
@@ -28,6 +52,7 @@ $(function () {
         });
     });
     //发布试卷
+    
     $("#pub_interviewer_info").click(function () {
         var idArr = "";
         var flag = $("#chk_all").is(':checked');
@@ -38,6 +63,7 @@ $(function () {
             $("[name=chk_list]:checkbox").each(function () {
                 if ($(this).is(':checked')) {
                     idArr += $(this).val() + ",";
+                   
                 }
             });
             if (idArr == "") {
@@ -173,11 +199,15 @@ function pagerChanged(obj) {
 
 /* 上一页 */
 function prev() {
+    
     var pageIndexNow = $("#page_index_now").val();
     var pageIndexPrev = parseInt(pageIndexNow) - 1;
     if (pageIndexPrev > 0) {
         getPageData(pageIndexPrev);
+       
     }
+   
+   
 }
 
 /* 下一页 */

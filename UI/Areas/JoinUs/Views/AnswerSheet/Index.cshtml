@@ -33,7 +33,7 @@
         <table class="am-table am-table-bordered am-table-radius am-table-striped">
             <thead>
                 <tr>
-                    <td id="answersheet_checkbox"><input id="chk_all" type='checkbox' /></td>
+                    <td id="answersheet_checkbox"></td>
                     <td id="grade_id">名次</td>
                     <td id="answersheet_id">答卷ID</td>
                     <td id="answersheet_person">答卷人</td>
@@ -80,7 +80,10 @@
                 <a href="#" id="last">最末页</a>
             </li>
         </ul><!-- 新增按钮 -->
-        <button class="am-btn am-btn-primary" id="toword" >导出试卷</button> 
+       
+        <button class="am-btn am-btn-primary"  onclick="window.location.href='/JoinUs/AnswerSheet/TotalToWord'">导出全部试卷</button> 
+         <button class="am-btn am-btn-primary" id="toword" >导出试卷</button> 
+        <button class="am-btn am-btn-primary"  onclick="window.location.href='/JoinUs/AnswerSheet/TotalToExcel'">导出所有面试者信息</button> 
         <button class="am-btn am-btn-primary" id="pub_interviewer_info" >导出面试者信息</button> 
        @* <button class="am-btn am-btn-primary" onclick="getRank()">查看总排名</button>*@
     </div>

@@ -16,7 +16,8 @@
     <form action="/JoinUs/AnswerSheet/CommitRater" method="post">
         <input id="answer_sheet_id" name="answerSheetId" type="hidden" value="@ViewData["answerSheetId"]" />
         <div id="choose_rater">
-            评卷人：<input style="width:100px;" name="pname" value="@ViewData["name"]" readonly="readonly"/>
+            评卷人：<input style="width:100px;" name="pname" value="@ViewData["name"]" readonly="readonly"/><br /><br />
+            已评阅：<input style="width:100px;" value="@ViewData["count"]" readonly="readonly"/>张
         </div>
         <table class="am-table am-table-bordered am-table-radius am-table-striped" id="tb_paper">
             <tbody>

@@ -121,7 +121,7 @@ namespace Permission
         /// 操作权限表中的数据
         /// </summary>
         /// <returns></returns>
-        [Common.Attributes.Skip]
+
         public ActionResult OperatePer()
         {
             string id = Request.Form["perId"].ToString();

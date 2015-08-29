@@ -106,3 +106,40 @@ D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\bin\Debug\z
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\obj\Debug\Duty.csprojResolveAssemblyReference.cache
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\obj\Debug\Duty.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Duty\obj\Debug\Duty.pdb
+F:\实验室网站\FinalWeb\Duty\bin\Debug\Duty.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\Duty.pdb
+F:\实验室网站\FinalWeb\Duty\bin\Debug\Common.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\IBLL.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\MODEL.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\MVC.Helper.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\System.Web.Helpers.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\System.Web.Razor.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\EntityFramework.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\DI.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\Spring.Core.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\Common.Logging.dll
+F:\实验室网站\FinalWeb\Duty\bin\Debug\Common.pdb
+F:\实验室网站\FinalWeb\Duty\bin\Debug\IBLL.pdb
+F:\实验室网站\FinalWeb\Duty\bin\Debug\MODEL.pdb
+F:\实验室网站\FinalWeb\Duty\bin\Debug\MVC.Helper.pdb
+F:\实验室网站\FinalWeb\Duty\bin\Debug\System.Web.Helpers.xml
+F:\实验室网站\FinalWeb\Duty\bin\Debug\System.Web.Razor.xml
+F:\实验室网站\FinalWeb\Duty\bin\Debug\EntityFramework.xml
+F:\实验室网站\FinalWeb\Duty\bin\Debug\DI.pdb
+F:\实验室网站\FinalWeb\Duty\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站\FinalWeb\UI\bin\Duty.dll
+F:\实验室网站\FinalWeb\UI\bin\Duty.pdb
+F:\实验室网站\FinalWeb\Duty\obj\Debug\Duty.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalWeb\Duty\obj\Debug\Duty.dll
+F:\实验室网站\FinalWeb\Duty\obj\Debug\Duty.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Duty.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Duty.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Duty\obj\Debug\Duty.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Duty\obj\Debug\Duty.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Duty\obj\Debug\Duty.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Duty.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Duty.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Duty\obj\Debug\Duty.csprojResolveAssemblyReference.cache
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Duty\obj\Debug\Duty.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Duty\obj\Debug\Duty.pdb

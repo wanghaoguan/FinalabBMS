@@ -46,9 +46,9 @@ function InitLeftMenu(jsonMenu) {
         console.info(n.icon.imgPath);
         console.info(n.menuName);
         menuList += '<li>';
-        menuList += '<div  class="menu_column_title" onclick="SlideToggleChildMenu(this,' + n.menuId + ')" id="menu-column-title-' + n.menuId + '">';
+        menuList += '<div  class="menu_column_title" onclick="SlideToggleChildMenu(this,' + n.menuId + ')"  id="menu-column-title-' + n.menuId + '">';
         menuList += '<div class="menu_column_title_border" >';
-        menuList += '<div id="menu-column-title-logo-' + n.menuId + '" class="menu_column_title_logo" style="background-image:url(\'' + n.icon.imgPath + '\');background-position:' + bgx + 'px ' + 0 + 'px;"></div>';
+        menuList += '<div id="menu-column-title-logo-' + n.menuId + '" class="menu_column_title_logo" background-position:' + bgx + 'px ' + 0 + 'px;"></div>';
         menuList += '<span class="menu_column_title_text">' + n.menuName + '</span>';
         menuList += '<div id="menu-column-title-state-' + n.menuId + '" class="menu_column_title_state" style="background-image:url(\'Images/index_icon.png\');background-position-x:-240px;background-position-y:0px;"></div>';
         menuList += '</div>';
@@ -59,7 +59,7 @@ function InitLeftMenu(jsonMenu) {
         $.each(n.childMenus, function (j, o) {
             menuList += '<li  onclick="AddIframe(' + o.menuId + ',\'' + o.url + '\',\'' + o.menuName + '\')">';
             menuList += '<div class="child_menu_column_border">';
-            menuList += '<div class="child_menu_column_logo"  ></div>';
+            menuList += '<div class="child_menu_column_logo"><span id="imgChild">O</span></div>';
             menuList += '<span class="child_menu_column_text" >' + o.menuName + '</span>';
             menuList += '</div>';
             menuList += '</li>';
@@ -85,11 +85,12 @@ function ResizeWindow()
     var headerHeight = $("#header").outerHeight();//获取header高度
     var footerHeight = $("#footer").outerHeight();//获取footer高度
     //设置nav和main的高度
-    $("#left").css('height', windowHeight - headerHeight - footerHeight + 'px');
-    $("#main").css('height', windowHeight - headerHeight - footerHeight + 'px');//左边和右边高度是一样的
+    $("#left").css('height', windowHeight - headerHeight-2+ 'px');
+    $("#main").css('height', windowHeight - headerHeight-2 + 'px');//左边和右边高度是一样的
     $("#main").css('width', windowWidth - ($("#left").outerWidth()-2) + 'px');
     $("#main-panel").css('height', $("#main").outerHeight() - $('#top-nav').outerHeight() + 'px');
     $("#header-right").css('width', $("#header").outerWidth() - 187 + 'px');
+    $("#footer").css('top', (windowHeight + 1) + 'px');
 
     ResizeChildMenu();//根据浏览器高度改变子列表的高度
     if ($(".menu").css("width") == '0px')//设置nav上的宽度，她是在0.1秒内增加到所要的宽度的
@@ -268,7 +269,7 @@ function CloseLeft() {
     var ul = document.getElementById("nav-body-ul");
     var li = ul.childNodes;
     var count = li.length;
-    for (var i = count-1; i>0; i--) {
+    for (var i = count-1; i>=0; i--) {
         ul.removeChild(li[i]);
     }
     var panel = document.getElementById("main-panel");
@@ -290,9 +291,7 @@ function CloseLeft() {
 function showClose() {
     var close = document.getElementById("leftClose");
     close.style.fontSize = "18px";
-    close.style.color = "#fff";
-    $close = close;
-    $close.attr('title', '关闭左侧所有标签');
+    close.style.color = "#003466";
 }
 function oldClose() {
     var close = document.getElementById("leftClose");

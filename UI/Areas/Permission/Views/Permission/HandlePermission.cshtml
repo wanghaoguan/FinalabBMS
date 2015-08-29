@@ -53,22 +53,22 @@
                         <div class="col-md-4">
                             @if (ViewBag.operate == 1)
                             {
-                                <input type="text" onclick="WdatePicker({ dateFmt: 'yyyy年M月d日' })" name="PerAddTime" id="Text2" class="form-control" />
+                                <input type="text" onclick="WdatePicker({ dateFmt: 'yyyy年M月d日' })" name="PerAddTime" id="Text2" class="form-control" required />
                             }
                             else
                             {
-                                <input type="text" onclick="WdatePicker({ dateFmt: 'yyyy年M月d日' })" value="@ViewBag.perModel.PerAddTime" name="PerAddTime" id="Text2" class="form-control" />
+                                <input type="text" onclick="WdatePicker({ dateFmt: 'yyyy年M月d日' })" value="@ViewBag.perModel.PerAddTime" name="PerAddTime" id="Text2" class="form-control" required />
                             }
                         </div>
                         <label class="col-md-2">权限名：</label>
                         <div class="col-md-4">
                             @if (ViewBag.operate == 1)
                             {
-                                <input type="text" name="PerName" id="Text3" class="form-control" />
+                                <input type="text" name="PerName" id="Text3" class="form-control" required/>
                             }
                             else
                             {
-                                <input type="text" name="PerName" id="Text3" class="form-control" value="@ViewBag.perModel.PerName" />
+                                <input type="text" name="PerName" id="Text3" class="form-control" value="@ViewBag.perModel.PerName" required />
                             }
                         </div>
                     </div><br />
@@ -78,22 +78,22 @@
                         <div class="col-md-4">
                             @if (ViewBag.operate == 1)
                             {
-                                <input type="text" name="PerParent" id="Text2" class="form-control" />
+                                <input type="text" name="PerParent" id="Text2" class="form-control" required />
                             }
                             else
                             {
-                                <input type="text" name="PerParent" id="Text2" class="form-control" value="@ViewBag.perModel.PerParent" />
+                                <input type="text" name="PerParent" id="Text2" class="form-control" value="@ViewBag.perModel.PerParent" required />
                             }
                         </div>
                         <label class="col-md-2">区域名：</label>
                         <div class="col-md-4">
                             @if (ViewBag.operate == 1)
                             {
-                                <input type="text" name="PerAreaName" id="Text3" class="form-control" />
+                                <input type="text" name="PerAreaName" id="Text3" class="form-control" required />
                             }
                             else
                             {
-                                <input type="text" name="PerAreaName" id="Text3" class="form-control" value="@ViewBag.perModel.PerAreaName" />
+                                <input type="text" name="PerAreaName" id="Text3" class="form-control" value="@ViewBag.perModel.PerAreaName" required />
                             }
                         </div>
                     </div><br />
@@ -103,11 +103,11 @@
                         <div class="col-md-4">
                             @if (ViewBag.operate == 1)
                             {
-                                <input type="text" name="PerController" id="Text2" class="form-control" />
+                                <input type="text" name="PerController" id="Text2" class="form-control" required/>
                             }
                             else
                             {
-                                <input type="text" name="PerController" id="Text2" class="form-control" value="@ViewBag.perModel.PerController" />
+                                <input type="text" name="PerController" id="Text2" class="form-control" value="@ViewBag.perModel.PerController" required />
                             }
 
                         </div>
@@ -115,11 +115,11 @@
                         <div class="col-md-4">
                             @if (ViewBag.operate == 1)
                             {
-                                <input type="text" name="PerActionName" id="Text3" class="form-control" />
+                                <input type="text" name="PerActionName" id="Text3" class="form-control" required/>
                             }
                             else
                             {
-                                <input type="text" name="PerActionName" id="Text3" class="form-control" value="@ViewBag.perModel.PerActionName" />
+                                <input type="text" name="PerActionName" id="Text3" class="form-control" value="@ViewBag.perModel.PerActionName" required/>
                             }
                         </div>
                     </div><br />

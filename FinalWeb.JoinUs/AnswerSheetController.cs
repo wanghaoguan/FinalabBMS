@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-//using Aspose.Words;
+
 
 namespace FinalWeb.JoinUs
 {
@@ -251,8 +251,9 @@ namespace FinalWeb.JoinUs
             ViewData["answerSheetId"] = id;
             MODEL.T_MemberInformation mem = Session["ainfo"] as MODEL.T_MemberInformation;
             ViewData["name"] = mem.StuName;
+            List<MODEL.T_AnswerSheetComment> list1 = OperateContext.Current.BLLSession.IAnswerSheetCommentBLL.GetListBy(q => q.UserCom == mem.StuName).ToList();
 
-
+            ViewData["count"] = list1.Count;
             List<MODEL.T_AnswerSheetComment> list = OperateContext.Current.BLLSession.IAnswerSheetCommentBLL.GetListBy(q => q.AnswerSheetID == id).ToList();
             foreach (MODEL.T_AnswerSheetComment q in list)
             {
@@ -903,7 +904,7 @@ namespace FinalWeb.JoinUs
             HSSFWorkbook excel = new HSSFWorkbook();
 
             // 新建一个Excel页签
-            ISheet sheet = excel.CreateSheet("面试者信息表");
+            ISheet sheet = excel.CreateSheet("所有面试者信息表");
 
             //设置居中
             ICellStyle cellStyle = excel.CreateCellStyle();
@@ -1102,8 +1103,6 @@ namespace FinalWeb.JoinUs
               
                 for (int i = 0; i < list.Count; i++)
                 {
-                   
-                   
                     int id = list[i].ID;
                     String[] fieldNames = new String[] { "num", "name", "acdemic", "profession", "content", "choiceanswer", "briefanswer", "allscore", "comment" };
                     MODEL.T_AnswerSheet model = OperateContext.Current.BLLSession.IAnswerSheetBLL.GetListBy(q => q.InterviewerID == id).First();
@@ -1494,7 +1493,7 @@ namespace FinalWeb.JoinUs
             sb.Append("</body>");
             var byteArray = System.Text.Encoding.Default.GetBytes(sb.ToString());
             Response.ContentEncoding = System.Text.Encoding.GetEncoding("gb2312");
-            return File(byteArray, "application/ms-word", "面试试卷" + ".doc");
+            return File(byteArray, "application/ms-word", "全部面试试卷" + ".doc");
 
         }
         #endregion

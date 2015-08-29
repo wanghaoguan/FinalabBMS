@@ -125,3 +125,37 @@ D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MVC.Helper\bin\D
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.csprojResolveAssemblyReference.cache
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.pdb
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\MVC.Helper.dll
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\MVC.Helper.pdb
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\BLL.dll
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\Common.dll
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\DI.dll
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\IBLL.dll
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\MODEL.dll
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\IDAL.dll
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\Spring.Core.dll
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\EntityFramework.dll
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\Common.Logging.dll
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\BLL.pdb
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\Common.pdb
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\DI.pdb
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\IBLL.pdb
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\MODEL.pdb
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\IDAL.pdb
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\EntityFramework.xml
+F:\实验室网站\FinalWeb\MVC.Helper\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站\FinalWeb\UI\bin\MVC.Helper.dll
+F:\实验室网站\FinalWeb\UI\bin\MVC.Helper.pdb
+F:\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.dll
+F:\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\MVC.Helper.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\MVC.Helper.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\MVC.Helper.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\MVC.Helper.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.csprojResolveAssemblyReference.cache
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.pdb

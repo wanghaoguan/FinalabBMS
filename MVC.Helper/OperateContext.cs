@@ -125,7 +125,15 @@ namespace MVC.Helper
         }
         #endregion
 
-
+       //唐尼玛测试数据
+        public string User
+        {
+            get
+            {
+                //获取当前user对象
+                return "XiaoBai";
+            }
+        }
 
 
         #region 1.1判断用户登入，并获得用户的权限    bool UserLogin(MODEL.ViewModel.LoginUser usrPara)

@@ -487,13 +487,13 @@ namespace FinalWeb.JoinUs
         }
         #endregion
 
-        //#region 处理异常 protected override void OnException(ExceptionContext filterContext)
-        //protected override void OnException(ExceptionContext filterContext)
-        //{
-        //    GetAbnormal ab = new GetAbnormal();
-        //    ab.Abnormal(filterContext);
-        //    base.OnException(filterContext);
-        //}
-        //#endregion
+        #region 处理异常 protected override void OnException(ExceptionContext filterContext)
+        protected override void OnException(ExceptionContext filterContext)
+        {
+            GetAbnormal ab = new GetAbnormal();
+            ab.Abnormal(filterContext);
+            base.OnException(filterContext);
+        }
+        #endregion
     }
 }

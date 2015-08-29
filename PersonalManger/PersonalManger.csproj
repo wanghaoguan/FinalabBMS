@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PersonalManger</RootNamespace>
     <AssemblyName>PersonalManger</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -19,10 +19,11 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\UI\bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,28 +32,15 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ChnCharInfo">
       <HintPath>..\..\..\05 ASP.NET专业的练习\小项目练习\winform类型\StuScoreManage\StuScoreManage\01StuScoreUI\bin\Debug\ChnCharInfo.dll</HintPath>
     </Reference>
-    <Reference Include="NPOI">
-      <HintPath>..\..\..\05 ASP.NET专业的练习\小项目练习\winform类型\StuScoreManage\StuScoreManage\01StuScoreUI\bin\Debug\NPOI.dll</HintPath>
-    </Reference>
-    <Reference Include="NPOI.DDF">
-      <HintPath>..\..\..\05 ASP.NET专业的练习\小项目练习\winform类型\StuScoreManage\StuScoreManage\01StuScoreUI\bin\Debug\NPOI.DDF.dll</HintPath>
-    </Reference>
-    <Reference Include="NPOI.HPSF">
-      <HintPath>..\..\..\05 ASP.NET专业的练习\小项目练习\winform类型\StuScoreManage\StuScoreManage\01StuScoreUI\bin\Debug\NPOI.HPSF.dll</HintPath>
-    </Reference>
-    <Reference Include="NPOI.HSSF">
-      <HintPath>..\..\..\05 ASP.NET专业的练习\小项目练习\winform类型\StuScoreManage\StuScoreManage\01StuScoreUI\bin\Debug\NPOI.HSSF.dll</HintPath>
-    </Reference>
-    <Reference Include="NPOI.POIFS">
-      <HintPath>..\..\..\05 ASP.NET专业的练习\小项目练习\winform类型\StuScoreManage\StuScoreManage\01StuScoreUI\bin\Debug\NPOI.POIFS.dll</HintPath>
-    </Reference>
-    <Reference Include="NPOI.Util">
-      <HintPath>..\..\..\05 ASP.NET专业的练习\小项目练习\winform类型\StuScoreManage\StuScoreManage\01StuScoreUI\bin\Debug\NPOI.Util.dll</HintPath>
+    <Reference Include="NPOI, Version=1.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FinalWeb.JoinUs\NPOI\NPOI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -93,6 +81,7 @@
       <Name>MVC.Helper</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

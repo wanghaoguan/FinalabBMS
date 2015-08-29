@@ -15,6 +15,7 @@ namespace UI.Controllers
     {
         public ActionResult Index()
         {
+            return  Redirect("/login/login/index");
         //    FileStream fs = new FileStream(Server.MapPath("/6.xls"), FileMode.Open, FileAccess.ReadWrite, FileShare.None);//创建文件流
         //    DataTable dt = new XlsStreamToDT(fs, 15).Xls2DT();
         //    using (var scope = new TransactionScope())
@@ -98,7 +99,7 @@ namespace UI.Controllers
         //        }
         //        scope.Complete();
         //    }
-            return View();
+            //return View();
         }
     }
 }

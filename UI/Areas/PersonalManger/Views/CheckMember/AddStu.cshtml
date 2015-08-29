@@ -44,30 +44,11 @@
             }
     </style>
     <script type="text/javascript">
-        function hide() {
-            file = $("#fileup").val();
-            if (!/.(gif|jpg|jpeg|png|gif|jpg|png)$/.test(file)) {
-                alert("图片类型必须是.gif,jpeg,jpg,png中的一种");
-            }
-            else {
-                $("#UpLoadImg").submit();
-            }
-        }
-
-        /*htm5实现图片本地预览，js代码*/
-        function preImg(sourceId, targetId) {
-            if (typeof FileReader === 'undefined') {
-                alert('你的浏览器不支持...');
-                return;
-            }
-            var reader = new FileReader();
-
-            reader.onload = function (e) {
-                var img = document.getElementById(targetId);
-                img.src = this.result;
-            }
-            reader.readAsDataURL(document.getElementById(sourceId).files[0]);
-        }
+        function change() {
+            var ef = document.getElementById("FileUpload");
+            var en = document.getElementById("showtext");
+        en.innerText = ef.value.substring(ef.value.lastIndexOf("\\") + 1);
+    };
     </script>
 </head>
 <body style="font-family: 'Microsoft YaHei'; background-color: #EDF1F9;">
@@ -79,25 +60,25 @@
         <div class="panel-body">
             <form id="InformationForm" class="form-horizontal" method="post" action="/PersonalManger/CheckMember/AddStuData">
                 <div class="form-group" style="width:720px;margin-top:0 auto;">
-                        <label for="StuName" class="col-sm-2 control-label">姓名:</label>
+                        <label  class="col-sm-2 control-label">姓名:</label>
                         <div class="col-sm-4">
                             <input type="text" class="form-control" name="StuName" placeholder="姓名" required="required" maxlength="6">
                         </div>
-                        <label for="StuNum" class="col-sm-2 control-label">学号:</label>
+                        <label  class="col-sm-2 control-label">学号:</label>
                         <div class="col-sm-4">
-                            <input type="text" class="form-control" name="StuNum" placeholder="学号" required="required">
+                            <input type="text" class="form-control" name="num" placeholder="学号" required="required">
                         </div>
                     </div>
                 <div class="form-group" style="width:720px;margin-top:0 auto;">
-                    <label for="LoginPwd" class="col-sm-2 control-label">登陆密码:</label>
+                    <label  class="col-sm-2 control-label">登陆密码:</label>
                     <div class="col-sm-4">
-                        <input type="password" class="form-control" name="LoginPwd" placeholder="登陆密码" required="required">
+                        <input type="password" class="form-control" name="pwd" placeholder="登陆密码" required="required">
                     </div>
                     <label for="Gender" class="col-sm-2 control-label">性别:</label>
                     <div class="col-sm-4">
-                        <select class="form-control" name="Gender">
-                            <option>男</option>
-                            <option>女</option>
+                        <select class="form-control" name="gender">
+                            <option value="男">男</option>
+                            <option value="女">女</option>
                         </select>
                     </div>
                 </div><br />
@@ -122,10 +103,10 @@
                         <div class="row">
                             <label class="col-md-1"></label>
                             <h4 class="col-md-5">请您选择批量导入的Excel表：</h4>
-                            <label class="col-md-2"></label>
+                            <label class="col-md-2" id="showtext" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"></label>
                             <a href="javascript:;" class="file">
                                 选择文件
-                                <input id="FileUpload" type="file" name="files" style="height: 26px;width: 200px; opacity: 0;" />
+                                <input id="FileUpload" type="file" name="files" style="height: 26px;width: 200px; opacity: 0;" onchange="change();"/>
                             </a>
                         </div>
                         <div class="row">
@@ -138,9 +119,6 @@
                     }
                 </div>
             </div>
-            
-
-
             <iframe name="submitIform" style="display:none;"></iframe>
         </div>
     </div>

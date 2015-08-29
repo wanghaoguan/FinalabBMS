@@ -310,7 +310,7 @@ namespace BLL
         } 
         #endregion
 
-        #region 01.获取我的任务分页数据
+        #region 01.获取我的未完成任务分页数据
         /// <summary>
         /// 获取我的任务分页数据
         /// </summary>
@@ -322,6 +322,21 @@ namespace BLL
         public List<MyTask> GetPagedTaskList(int pageIndex, int pageSize, string stuNum, bool complete)
         {
             return DBSession.ITaskInformationDAL.GetPagedTaskList(pageIndex, pageSize, stuNum, complete);
+        }
+        #endregion
+
+        #region 01.获取我的已完成任务分页数据
+        /// <summary>
+        /// 获取我的任务分页数据
+        /// </summary>
+        /// <param name="pageIndex"></param>
+        /// <param name="pageSize"></param>
+        /// <param name="stuNum"></param>
+        /// <param name="taskTypeId"></param>
+        /// <returns></returns>
+        public List<MyTask> GetPagedCompletedTaskList(int pageIndex, int pageSize, string stuNum, bool complete)
+        {
+            return DBSession.ITaskInformationDAL.GetPagedCompletedTaskList(pageIndex, pageSize, stuNum, complete);
         }
         #endregion
 

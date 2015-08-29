@@ -47,7 +47,7 @@ namespace Message
 
             int pageSize = Request.QueryString["PageSize"] == null ? 5 : int.Parse(Request.QueryString["PageSize"]);
             pageModel.PageIndex = pageIndex;
-            int count = OperateContext.Current.BLLSession.Il_User_MessageBLL.GetListBy(u => u.ReceiveId == receiveId && u.ReceiveIsDelete == false && u.RecTrueDel != true ).Count();
+            int count = OperateContext.Current.BLLSession.Il_User_MessageBLL.GetListBy(u => u.ReceiveId == receiveId && u.ReceiveIsDelete == false &&( u.RecTrueDel == false || u.RecTrueDel == null) ).Count();
             pageModel.MessageCount = count;
             pageModel.PageCount = (int)Math.Ceiling(count / (float)pageSize) == 0 ? 1 : (int)Math.Ceiling(count / (float)pageSize);
 
@@ -57,7 +57,7 @@ namespace Message
             }
 
 
-            List<MODEL.Tbl_User_Message> list = OperateContext.Current.BLLSession.Il_User_MessageBLL.GetPagedList(pageModel.PageIndex, pageSize , u => u.ReceiveId == receiveId && u.ReceiveIsDelete == false && u.RecTrueDel != true, u => u.Id);
+            List<MODEL.Tbl_User_Message> list = OperateContext.Current.BLLSession.Il_User_MessageBLL.GetPagedList(pageModel.PageIndex, pageSize, u => u.ReceiveId == receiveId && u.ReceiveIsDelete == false && (u.RecTrueDel == false || u.RecTrueDel == null), u => u.Id);
             foreach (MODEL.Tbl_User_Message userModel in list)
             {
                 MODEL.ViewModel.SendBox sendBoxModel = new MODEL.ViewModel.SendBox();
@@ -892,20 +892,20 @@ namespace Message
 
             int userMessgeId = int.Parse(Request.QueryString["userMessgeId"]);
             int messageId = int.Parse(Request.QueryString["messageId"]);
-
-            
-            int userMessageId = int.Parse(Request.QueryString["userMessgeId"]);
             string sendId = Request.QueryString["sendId"];
 
-            string receiveId = user.StuNum;
-            
-            bool isDraft = Boolean.Parse(Request.QueryString["isDraft"]);
-            bool sendIsDelete = Boolean.Parse(Request.QueryString["sendIsDelete"]);
-            bool receiveIsDelete = Boolean.Parse(Request.QueryString["receiveIsDelete"]);
+            List<MODEL.Tbl_User_Message> list = OperateContext.Current.BLLSession.Il_User_MessageBLL.GetListBy(u => u.Id == userMessgeId);
+            MODEL.Tbl_User_Message usermessage = new MODEL.Tbl_User_Message();
 
+            foreach (var um in list)
+            {
+                usermessage = um;
+            }
+            usermessage.IsRead = true;
+            
+           
             //设置消息为已读状态
-             MODEL.Tbl_User_Message usermessage = new MODEL.Tbl_User_Message() { Id = userMessageId, ReceiveId = receiveId, SendId = sendId, MessageId = messageId, IsRead = true, IsDraft = isDraft, ReceiveIsDelete = receiveIsDelete , SendIsDelete = sendIsDelete };
-             OperateContext.Current.BLLSession.Il_User_MessageBLL.Modify(usermessage, "ReceiveIsDelete");
+            OperateContext.Current.BLLSession.Il_User_MessageBLL.Modify(usermessage, "IsRead");
 
 
             List<MODEL.Tbl_Message> message = OperateContext.Current.BLLSession.Il_MessageBLL.GetListBy(u => u.Id == messageId);
