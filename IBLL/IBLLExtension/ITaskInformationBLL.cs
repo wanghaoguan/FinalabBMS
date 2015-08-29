@@ -208,6 +208,19 @@ namespace IBLL
         List<MyTask> GetPagedTaskList(int pageIndex, int pageSize, string stuNum, bool complete);
         #endregion
 
+         #region 01.获取我的已任务分页数据
+        /// <summary>
+        /// 获取我的任务分页数据
+        /// </summary>
+        /// <param name="pageIndex"></param>
+        /// <param name="pageSize"></param>
+        /// <param name="stuNum"></param>
+        /// <param name="taskTypeId"></param>
+        /// <returns></returns>
+        List<MyTask> GetPagedCompletedTaskList(int pageIndex, int pageSize, string stuNum, bool complete);
+        #endregion
+   
+
         #region 02.获取我的任务条数
         /// <summary>
         /// 获取我的任务条数

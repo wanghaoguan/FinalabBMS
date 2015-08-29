@@ -130,7 +130,7 @@ namespace IDAL
         List<MODEL.T_TaskInformation> GetTaskCountOfType(string _taskType); 
         #endregion
 
-        #region 01.获取我的任务分页数据
+        #region 01.获取我的未完成任务分页数据
         /// <summary>
         /// 获取我的任务分页数据
         /// </summary>
@@ -141,6 +141,19 @@ namespace IDAL
         /// <returns></returns>
         List<MyTask> GetPagedTaskList(int pageIndex, int pageSize, string stuNum, bool complete);
         #endregion
+
+         #region 01.获取我的已完成任务分页数据
+        /// <summary>
+        /// 获取我的任务分页数据
+        /// </summary>
+        /// <param name="pageIndex">页码</param>
+        /// <param name="pageSize">页大小</param>
+        /// <param name="stuNum">学号</param>
+        /// <param name="taskTypeId">任务类型ID</param>
+        /// <returns></returns>
+        List<MyTask> GetPagedCompletedTaskList(int pageIndex, int pageSize, string stuNum, bool complete);
+        #endregion
+        
 
         #region 02.获取我的任务总数
         /// <summary>

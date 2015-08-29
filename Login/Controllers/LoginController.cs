@@ -23,7 +23,7 @@ namespace Login.Controllers
         public ActionResult Index()
         {
             //这是判断是否免登入，即有用户的对象
-            if (Request.Cookies["ainfo"]!=null)
+            if (Request.Cookies["Admin_InfoKey"] != null)
             {
                 string strCookieValue = Request.Cookies["Admin_InfoKey"].Value;
                 string User = Common.SecurityHelper.DecryptUserInfo(strCookieValue);
@@ -61,31 +61,32 @@ namespace Login.Controllers
             if (ModelState.IsValid)
             {
                 //这里Remember是得到是否记住密码
-                string Remember = Request.Form["Remember"];
-                if (Remember.Equals("on"))
+                string remember = Request.Form["Remember"];
+                if (remember.Equals("on"))
                 {
                     user.IsAlways = true;
                 }
-                //如果登入成功，再判断验证码是否正确
-                if (OperateContext.Current.UserLogin(user))
+                string vCode = Request.Form["VCode"];
+                string vCodeSer = (string)Session["VCode"];
+                /*自动登陆时*/
+                if (vCode.Equals(vCodeSer))
                 {
-                    string VCode = Request.Form["VCode"];
-                    string VCodeSer = (string)Session["VCode"];
-                    /*自动登陆时*/
-                    if (VCode.Equals(VCodeSer))
+                    //登陆成功进入主页
+                    if (OperateContext.Current.UserLogin(user))
                     {
-                        //登陆成功进入主页
                         return OperateContext.Current.RedirectAjax("ok", null, null, "/Login/Login/MainPage");
                     }
                     else
                     {
-                        return OperateContext.Current.RedirectAjax("err", "验证码错误", null, null);
+                        return OperateContext.Current.RedirectAjax("err", "登陆失败", null, null);
                     }
                 }
                 else
                 {
-                    return OperateContext.Current.RedirectAjax("err", "登陆失败", null, null);
+                    return OperateContext.Current.RedirectAjax("err", "验证码错误", null, null);
                 }
+                //如果登入成功，再判断验证码是否正确
+                
             }
             else
             {

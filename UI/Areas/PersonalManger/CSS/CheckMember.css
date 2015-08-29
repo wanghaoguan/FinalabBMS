@@ -71,12 +71,10 @@ html { overflow-y: scroll; }
 .a-refresh { background-position: -155px -75px; height: 20px; margin-left: 10px; margin-top: 7px; }
 
 
-.lable-text, .lable-page, .lable-text-right { float: left; color: black; font-family: 'Microsoft YaHei'; font-size: 9px; margin-top: 9px; margin-left: 10px; }
+.lable-text, .lable-text-right { float: left; color: black; font-family: 'Microsoft YaHei'; font-size: 9px; margin-top: 7px; margin-left: 10px; }
 
-.lable-text { margin-left: 12px; }
-.lable-page { margin-top: 7px; border: 1px rgb(39,184,165) solid; width: 25px; text-align: center; margin-left: 6px; }
 
-.lable-text-right { font-size: 12px; color: rgb(39,184,165); float: right; margin-right: 8px; }
+.lable-text-right { font-size: 14px; color: rgb(39,184,165); float: right; margin-right: 8px; }
 
 
 /*------------------------------删除 修改超链接样式---------------------------------*/

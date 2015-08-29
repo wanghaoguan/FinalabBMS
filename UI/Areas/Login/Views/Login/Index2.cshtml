@@ -1,0 +1,70 @@
+﻿<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动态背景的CSS3登录表单DEMO演示</title>
+    <link href="~/Areas/Login/CSS/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="top">
+        <span style="text-align:left;">Final Lab</span>
+    </div>
+    <div class="htmleaf-container">
+        <div class="wrapper">
+            <div class="container">
+                <h1>Welcome</h1>
+
+                <form class="form">
+                    <input value="@ViewData["Name"]" id="LoginName" name="LoginName" type="text" placeholder="学  号" /><br />
+                    <input id="Pwd" name="Pwd" type="password" value="@ViewData["Pwd"]" placeholder="密 码" />
+                    <div id="VCodeDiv">
+                        <div id="VCodeText" >
+                            <input type="text" id="VCode" name="VCode" placeholder="验 证 码"/>
+                        </div>
+                        <div id="VCodeImg">
+                            <img id="ValiCode" src="GetVcode" />
+                        </div>
+                    </div>
+
+                    <div id="CheckBoxDiv">
+                            <input type="checkbox" id="remember" onclick="checkClick();"/><span style="vertical-align
+    :top;margin-left:5px;float:left;">记住账号密码</span>
+                            <a id="autologin" href="">忘记密码</a>
+                    </div>
+                    <button type="button" id="login-button" onclick="login()">Login</button>
+            </form>
+        </div>
+
+            <ul class="bg-bubbles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div id="LoginFoot"></div>
+    <script src="~/bootstrap/jquery/jquery-1.11.3.min.js"></script>
+    <script src="~/Areas/Login/JS/Login.js"></script>
+    <script>
+        window.onload = function () {
+            var allheight = $(window).outerHeight;
+            allheight = document.body.clientHeight;
+            $(".htmleaf-container").css('height', (allheight - 200) + 'px');
+        }
+
+        function checkClick() {
+            $("remember").removeAttr("input");
+        }
+    </script>
+
+</body>
+</html>

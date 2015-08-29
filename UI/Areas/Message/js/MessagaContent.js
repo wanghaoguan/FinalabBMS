@@ -2,9 +2,7 @@
 //===============================<< 回复 >>==============================
 $(function () {
     $("#reply").click(function () {
-
-        alert("点击了");
-
+        //alert("点击了");
         $receiveName = $("#sendName");
         $topic = $("#title");
         $messageContent = $("#content");
@@ -15,9 +13,9 @@ $(function () {
             alert("恢复内容不能为空！");
             $("#replyContent").css("border", "1px solid red");
         }else {
-            alert("进入了");
+            //alert("进入了");
             var mc = "##" + $.trim($topic.text()) + "##" + $replyContent.val();
-            alert(mc);
+            //alert(mc);
             $.post(
                 "/Message/InsideMsg/SendMessage",
                 {

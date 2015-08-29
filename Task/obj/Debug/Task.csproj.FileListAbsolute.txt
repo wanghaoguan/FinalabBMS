@@ -59,3 +59,17 @@ D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\Task.pdb
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Task\obj\Debug\Task.csprojResolveAssemblyReference.cache
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Task\obj\Debug\Task.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Task\obj\Debug\Task.pdb
+F:\实验室网站\FinalWeb\UI\bin\Task.dll
+F:\实验室网站\FinalWeb\UI\bin\Task.pdb
+F:\实验室网站\FinalWeb\Task\obj\Debug\Task.dll
+F:\实验室网站\FinalWeb\Task\obj\Debug\Task.pdb
+F:\实验室网站\FinalWeb\Task\obj\Debug\Task.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Task.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Task.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Task\obj\Debug\Task.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Task\obj\Debug\Task.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Task\obj\Debug\Task.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Task.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Task.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Task\obj\Debug\Task.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Task\obj\Debug\Task.pdb

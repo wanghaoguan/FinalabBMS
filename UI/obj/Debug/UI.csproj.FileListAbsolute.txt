@@ -339,3 +339,162 @@ D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\System.We
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\bin\IDAL.pdb
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\obj\Debug\UI.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\UI\obj\Debug\UI.pdb
+F:\实验室网站\FinalWeb\UI\bin\UI.dll.config
+F:\实验室网站\FinalWeb\UI\bin\UI.dll
+F:\实验室网站\FinalWeb\UI\bin\UI.pdb
+F:\实验室网站\FinalWeb\UI\bin\BLL.dll
+F:\实验室网站\FinalWeb\UI\bin\Common.dll
+F:\实验室网站\FinalWeb\UI\bin\DALMSSQL.dll
+F:\实验室网站\FinalWeb\UI\bin\DI.dll
+F:\实验室网站\FinalWeb\UI\bin\IBLL.dll
+F:\实验室网站\FinalWeb\UI\bin\Microsoft.QualityTools.Testing.Fakes.dll
+F:\实验室网站\FinalWeb\UI\bin\Microsoft.Web.Infrastructure.dll
+F:\实验室网站\FinalWeb\UI\bin\MODEL.dll
+F:\实验室网站\FinalWeb\UI\bin\Newtonsoft.Json.dll
+F:\实验室网站\FinalWeb\UI\bin\NPOI.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Net.Http.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Net.Http.WebRequest.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Web.Helpers.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Web.Http.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Web.Http.WebHost.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Web.Mvc.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Web.Optimization.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Web.Razor.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Deployment.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Razor.dll
+F:\实验室网站\FinalWeb\UI\bin\IDAL.dll
+F:\实验室网站\FinalWeb\UI\bin\EntityFramework.dll
+F:\实验室网站\FinalWeb\UI\bin\Spring.Core.dll
+F:\实验室网站\FinalWeb\UI\bin\ICSharpCode.SharpZipLib.dll
+F:\实验室网站\FinalWeb\UI\bin\System.Net.Http.Formatting.dll
+F:\实验室网站\FinalWeb\UI\bin\Common.Logging.dll
+F:\实验室网站\FinalWeb\UI\bin\BLL.pdb
+F:\实验室网站\FinalWeb\UI\bin\Common.pdb
+F:\实验室网站\FinalWeb\UI\bin\DALMSSQL.pdb
+F:\实验室网站\FinalWeb\UI\bin\DI.pdb
+F:\实验室网站\FinalWeb\UI\bin\Duty.pdb
+F:\实验室网站\FinalWeb\UI\bin\IBLL.pdb
+F:\实验室网站\FinalWeb\UI\bin\Login.pdb
+F:\实验室网站\FinalWeb\UI\bin\MODEL.pdb
+F:\实验室网站\FinalWeb\UI\bin\MVC.Helper.pdb
+F:\实验室网站\FinalWeb\UI\bin\Permission.pdb
+F:\实验室网站\FinalWeb\UI\bin\PersonalManger.pdb
+F:\实验室网站\FinalWeb\UI\bin\NPOI.xml
+F:\实验室网站\FinalWeb\UI\bin\System.Web.Helpers.xml
+F:\实验室网站\FinalWeb\UI\bin\System.Web.Http.xml
+F:\实验室网站\FinalWeb\UI\bin\System.Web.Http.WebHost.xml
+F:\实验室网站\FinalWeb\UI\bin\System.Web.Mvc.xml
+F:\实验室网站\FinalWeb\UI\bin\System.Web.Razor.xml
+F:\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.xml
+F:\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Deployment.xml
+F:\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Razor.xml
+F:\实验室网站\FinalWeb\UI\bin\System.Net.Http.xml
+F:\实验室网站\FinalWeb\UI\bin\System.Net.Http.WebRequest.xml
+F:\实验室网站\FinalWeb\UI\bin\IDAL.pdb
+F:\实验室网站\FinalWeb\UI\bin\System.Net.Http.Formatting.xml
+F:\实验室网站\FinalWeb\UI\bin\zh-Hans\System.Web.Http.resources.dll
+F:\实验室网站\FinalWeb\UI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\实验室网站\FinalWeb\UI\bin\zh-Hans\System.Net.Http.resources.dll
+F:\实验室网站\FinalWeb\UI\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+F:\实验室网站\FinalWeb\UI\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\实验室网站\FinalWeb\UI\obj\Debug\UI.csprojFakesResolveAssemblyReference.cache
+F:\实验室网站\FinalWeb\UI\obj\Debug\UI.dll
+F:\实验室网站\FinalWeb\UI\obj\Debug\UI.pdb
+F:\实验室网站\FinalWeb\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\UI.dll.config
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\UI.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\UI.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\BLL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Common.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\DALMSSQL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\DI.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\IBLL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Microsoft.Web.Infrastructure.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\MODEL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Newtonsoft.Json.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\NPOI.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Helpers.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Mvc.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Optimization.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Razor.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Deployment.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Razor.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\IDAL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\EntityFramework.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Spring.Core.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\ICSharpCode.SharpZipLib.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Common.Logging.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\BLL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Common.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\DALMSSQL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\DI.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Duty.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\IBLL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Login.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\MODEL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\MVC.Helper.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Permission.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\PersonalManger.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\NPOI.xml
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Helpers.xml
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Mvc.xml
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Razor.xml
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.xml
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Deployment.xml
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Razor.xml
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\IDAL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\obj\Debug\UI.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\obj\Debug\UI.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\UI.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\UI.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\BLL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Common.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\DALMSSQL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\DI.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\IBLL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\MODEL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\NPOI.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Helpers.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Http.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Http.WebHost.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Mvc.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Optimization.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Razor.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\IDAL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\EntityFramework.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Spring.Core.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Net.Http.Formatting.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Common.Logging.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\BLL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Common.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\DALMSSQL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\DI.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\IBLL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\MODEL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\NPOI.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Helpers.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Http.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Http.WebHost.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Mvc.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.Razor.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\IDAL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\System.Net.Http.Formatting.xml
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\obj\Debug\UI.csprojFakesResolveAssemblyReference.cache
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\obj\Debug\UI.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\obj\Debug\UI.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll

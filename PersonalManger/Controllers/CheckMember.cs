@@ -14,7 +14,10 @@ using System.Web.Mvc;
 using System.Globalization;
 using System.Transactions;
 using System.Data;
-using NPOI.HSSF.UserModel;
+
+
+
+
 
 
 namespace PersonalManger
@@ -616,20 +619,20 @@ namespace PersonalManger
                 }
             }
             #endregion
-            HSSFWorkbook workbook = new HSSFWorkbook();
-            HSSFSheet sheet = workbook.CreateSheet("第一页");
-            HSSFRow hr = sheet.CreateRow(0);
+            NPOI.HSSF.UserModel.HSSFWorkbook workbook= new NPOI.HSSF.UserModel.HSSFWorkbook();
+            NPOI.HSSF.UserModel.HSSFSheet sheet = workbook.CreateSheet("第一页") as NPOI.HSSF.UserModel.HSSFSheet;
+            NPOI.HSSF.UserModel.HSSFRow hr = sheet.CreateRow(0) as NPOI.HSSF.UserModel.HSSFRow;
             for(int i=0;i<listName.Count;i++)
             {
                 hr.CreateCell(i).SetCellValue(listName[i]);
             }
             for (int rowIndex = 0; rowIndex < dt.Rows.Count; rowIndex++)
             {
-                HSSFRow hro = sheet.CreateRow(rowIndex+1);
+                NPOI.HSSF.UserModel.HSSFRow hro = sheet.CreateRow(rowIndex + 1) as NPOI.HSSF.UserModel.HSSFRow;
                 for (int colIndex = 0; colIndex < listName.Count; colIndex++)
                 {
                     string str="";
-                    if (colIndex == count)
+                    if (colIndex == count&&count!=0)
                     {
                         if (dt.Rows[rowIndex][colIndex].ToString() == "10001") { str = "NET应用开发部"; }
                         if (dt.Rows[rowIndex][colIndex].ToString() == "10002") { str = "安卓应用开发部"; }
@@ -662,39 +665,32 @@ namespace PersonalManger
         #endregion
         #region 3.2将成员信息增加到数据库中 AddStuData(MODEL.T_MemberInformation member)
         //将成员信息新增到数据库中
-        public ActionResult AddStuData(MODEL.T_MemberInformation member)
+        public ActionResult AddStuData()
         {
-            if (ModelState.IsValid)
+            MODEL.T_MemberInformation member = new MODEL.T_MemberInformation();
+            member.StuName = Request.Form["StuName"];
+            member.StuNum= Request.Form["num"];
+            member.LoginPwd= Request.Form["pwd"];
+            member.Gender = Request.Form["gender"];
+            
+            member.QQNum = "1";
+            member.Email = "1@qq.com";
+            member.PhotoPath = "../../HeadImg/final.png";
+            member.JoinTime = DateTime.Now;
+            member.Department = 10007;
+            member.TechnicalLevel = 10003;
+            member.IsAdmin = false;
+            member.IsDelete = false;
+            member.SecretShow = 7;
+            int isOk = OperateContext.Current.BLLSession.IMemberInformationBLL.Add(member);
+            if (isOk > 0)
             {
-                if (string.IsNullOrEmpty(member.QQNum))//新增成员时，如果有些信息没有填写，就设置默认值
-                {
-                    member.QQNum = "1"; 
-                }
-                if (string.IsNullOrEmpty(member.Email))
-                {
-                    member.Email = "1@qq.com";
-                }
-                if (string.IsNullOrEmpty(member.PhotoPath))
-                {
-                    member.PhotoPath = "../../HeadImg/final.png";
-                }
-                member.JoinTime =DateTime.Now;
-                member.Department = 10007;
-                member.TechnicalLevel = 10003;
-                member.IsAdmin = false;
-                member.IsDelete = false;
-                member.SecretShow = 7;
-                int isOk=OperateContext.Current.BLLSession.IMemberInformationBLL.Add(member);
-                if (isOk > 0)
-                {
-                    return Content("<script>alert('新增成功');window.location='/PersonalManger/CheckMember/Index';</script>");
-                }
-                else
-                {
-                    return Content("<script>alert('新增失败');window.location='/PersonalManger/CheckMember/AddStu'</script>");
-                }
+                return Content("<script>alert('新增成功');window.location='/PersonalManger/CheckMember/Index';</script>");
             }
-            return Content("<script>alert('新增失败');window.location='/PersonalManger/CheckMember/AddStu'</script>");
+            else
+            {
+                return Content("<script>alert('新增失败');window.location='/PersonalManger/CheckMember/AddStu'</script>");
+            }
         }
         #endregion
         #region 3.3从excel表里批量新增到数据库里
@@ -707,8 +703,7 @@ namespace PersonalManger
             string savePath;
             if (file == null || file.ContentLength <= 0)
             {
-                ViewBag.error = "文件不能为空";
-                return Redirect("/PersonalManger/CheckMember/AddStu");
+                return Content("<script>alert('文件不能为空！');window.location='/PersonalManger/CheckMember/AddStu';</script>");
             }
             else
             {
@@ -721,13 +716,11 @@ namespace PersonalManger
                 FileName = NoFileName+ fileEx;
                 if (!FileType.Contains(fileEx))
                 {
-                    ViewBag.error = "文件类型不对，只能导入xls和xlsx格式的文件";
-                    return Redirect("/PersonalManger/CheckMember/AddStu");
+                    return Content("<script>alert('文件类型不对，只能导入xls和xlsx格式的文件！');window.location='/PersonalManger/CheckMember/AddStu';</script>");
                 }
                 if (filesize >= MaxSize)
                 {
-                    ViewBag.error = "上传文件超过8M，请小于8M";
-                    return Redirect("/PersonalManger/CheckMember/AddStu");
+                    return Content("<script>alert('上传文件超过8M，请小于8M！');window.location='/PersonalManger/CheckMember/AddStu';</script>");
                 }
                 string path = AppDomain.CurrentDomain.BaseDirectory + "Excel\\";
                 savePath = Path.Combine(path, FileName);
@@ -808,12 +801,12 @@ namespace PersonalManger
         }
 
         //处理异常
-        protected override void OnException(ExceptionContext filterContext)
-        {
-            GetAbnormal ab = new GetAbnormal();
-            ab.Abnormal(filterContext);
-            base.OnException(filterContext);
-        }
+        //protected override void OnException(ExceptionContext filterContext)
+        //{
+        //    GetAbnormal ab = new GetAbnormal();
+        //    ab.Abnormal(filterContext);
+        //    base.OnException(filterContext);
+        //}
     }
 
 

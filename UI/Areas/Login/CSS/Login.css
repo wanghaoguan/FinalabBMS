@@ -142,8 +142,7 @@
 #BackPassword {
     color:white;
     width:64px;
-    height:20px;
-    /*border:1px solid red;*/  
+    height:20px; 
     float:left;
     margin-top:4px;
     margin-left:4px;
@@ -205,7 +204,6 @@
     left:25px;
     width:335px;
     height:30px;   
-    /*border:1px solid white;*/
     float:left; 
     position:relative;   
 }

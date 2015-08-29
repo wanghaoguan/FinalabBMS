@@ -49,3 +49,24 @@ D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IDAL\bin\Debug\M
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IDAL\obj\Debug\IDAL.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\IDAL\obj\Debug\IDAL.pdb
+F:\实验室网站\FinalWeb\IDAL\bin\Debug\IDAL.dll
+F:\实验室网站\FinalWeb\IDAL\bin\Debug\IDAL.pdb
+F:\实验室网站\FinalWeb\IDAL\bin\Debug\MODEL.dll
+F:\实验室网站\FinalWeb\IDAL\bin\Debug\MODEL.pdb
+F:\实验室网站\FinalWeb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalWeb\IDAL\obj\Debug\IDAL.dll
+F:\实验室网站\FinalWeb\IDAL\obj\Debug\IDAL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IDAL\bin\Debug\IDAL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IDAL\bin\Debug\IDAL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IDAL\bin\Debug\MODEL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IDAL\bin\Debug\MODEL.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IDAL\obj\Debug\IDAL.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\IDAL\obj\Debug\IDAL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IDAL\bin\Debug\IDAL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IDAL\bin\Debug\IDAL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IDAL\bin\Debug\MODEL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IDAL\bin\Debug\MODEL.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IDAL\obj\Debug\IDAL.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IDAL\obj\Debug\IDAL.pdb

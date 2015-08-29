@@ -121,3 +121,35 @@ D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Login\bin\Debug\
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Login\obj\Debug\Login.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Login\obj\Debug\Login.pdb
+F:\实验室网站\FinalWeb\Login\bin\Debug\Login.dll
+F:\实验室网站\FinalWeb\Login\bin\Debug\Login.pdb
+F:\实验室网站\FinalWeb\Login\bin\Debug\Common.dll
+F:\实验室网站\FinalWeb\Login\bin\Debug\IBLL.dll
+F:\实验室网站\FinalWeb\Login\bin\Debug\MODEL.dll
+F:\实验室网站\FinalWeb\Login\bin\Debug\MVC.Helper.dll
+F:\实验室网站\FinalWeb\Login\bin\Debug\EntityFramework.dll
+F:\实验室网站\FinalWeb\Login\bin\Debug\DI.dll
+F:\实验室网站\FinalWeb\Login\bin\Debug\Spring.Core.dll
+F:\实验室网站\FinalWeb\Login\bin\Debug\Common.Logging.dll
+F:\实验室网站\FinalWeb\Login\bin\Debug\Common.pdb
+F:\实验室网站\FinalWeb\Login\bin\Debug\IBLL.pdb
+F:\实验室网站\FinalWeb\Login\bin\Debug\MODEL.pdb
+F:\实验室网站\FinalWeb\Login\bin\Debug\MVC.Helper.pdb
+F:\实验室网站\FinalWeb\Login\bin\Debug\EntityFramework.xml
+F:\实验室网站\FinalWeb\Login\bin\Debug\DI.pdb
+F:\实验室网站\FinalWeb\Login\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站\FinalWeb\UI\bin\Login.dll
+F:\实验室网站\FinalWeb\UI\bin\Login.pdb
+F:\实验室网站\FinalWeb\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalWeb\Login\obj\Debug\Login.dll
+F:\实验室网站\FinalWeb\Login\obj\Debug\Login.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Login.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Login.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Login\obj\Debug\Login.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Login\obj\Debug\Login.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Login.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Login.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Login\obj\Debug\Login.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Login\obj\Debug\Login.pdb

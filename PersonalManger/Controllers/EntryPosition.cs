@@ -169,7 +169,7 @@ namespace PersonalManger
             //将选中的人录入
             if (EntryData(perId, modifyMem, dep, dtthree))
             {
-                return Redirect("/PersonalManger/EntryPosition/EntryChoose");
+                return Content("<script>alert('录入成功！');window.location='/PersonalManger/EntryPosition/EntryChoose'</script>");
             }
             return Content("<script>alert('录入失败,请您重新录入');window.location='/PersonalManger/EntryPosition/EntryChoose'</script>");
         } 
@@ -254,7 +254,7 @@ namespace PersonalManger
             if (perId == Entry.EntryFinancial)//录入财务主管
             {
                 //删除担任这个职位的上一届成员
-                roleActList = OperateContext.Current.BLLSession.IRoleActBLL.GetListBy(u => u.RoleId == Position.StudyMember).ToList();
+                roleActList = OperateContext.Current.BLLSession.IRoleActBLL.GetListBy(u => u.RoleId == Position.Financial).ToList();
                 OperateContext.Current.BLLSession.IRoleActBLL.DelBy(u => u.RoleId == Position.Financial);
                 SetNewRole(roleActList);
                 //开始录入

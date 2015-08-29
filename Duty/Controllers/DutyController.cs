@@ -62,7 +62,7 @@ namespace Duty.Controllers
                 }
                 catch (Exception ex)
                 {
-                    return OperateContext.Current.RedirectAjax("err", "修改失败", null, null);
+                    return OperateContext.Current.RedirectAjax("err", "录入失败，请您先查看值日录入表，是否同一周成员被多次录入！", null, null);
                 }
             }
             return OperateContext.Current.RedirectAjax("ok", "修改成功", null, null);

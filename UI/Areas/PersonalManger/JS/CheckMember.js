@@ -6,13 +6,12 @@ function Delete(stuNum) {
             type: 'post',
             data: { "stuNum": stuNum },
             success: function (data) {
-                var jsonObj = JSON.parse(data);
-                if (jsonObj.Statu == "ok") {
-                    alert(jsonObj.Msg);
+                if (data.Statu == "ok") {
+                    alert(data.Msg);
                     $("#body").empty();
                     $.Init();
                 } else {
-                    alert(jsonObj.Msg);
+                    alert(data.Msg);
                 }
             }
         })
@@ -47,7 +46,7 @@ function PreCreateTable(jsonObj) {
     rowForm = (pageIndex - 1) * pageSize + 1;//开始的记录数
     rowTO = rowForm + rowCurrentSum - 1;//结束的记录数
     $(".lable-text-right").html("显示" + rowForm + "到" + rowTO + "，总计" + rowSum + "条记录");//从开始纪录到结束纪录显示
-    $(".lable-page").html(pageIndex);//当前页显示
+    $("#lable-page").html("第" + pageIndex + "页");//当前页显示
     $("#lable-page-sum").html("共" + pageSum + "页");//总页数显示
     $.creatTable(data);
 }

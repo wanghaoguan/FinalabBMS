@@ -33,8 +33,13 @@ function login() {
     var userName = $("#LoginName").val();;
     var pwd = $("#Pwd").val();
     var vCode = $("#VCode").val();
-    var remember = $("#remember").val();
-    var autologin = $("#autologin").val();
+    var rem = document.getElementById("remember");
+    if (rem.checked) {
+        var remember = "on";
+    } else {
+        var remember = "off";
+    }
+    
     var matchResult = true;
     if (LoginName == "" || pwd == "" || vCode == "") {
         alert("请确认是否有空缺项！");
@@ -53,24 +58,24 @@ function login() {
         $.ajax({
             url: '/Login/Login/Login',
             type: 'post',
-            data: { "LoginName": userName, "Pwd": pwd, "VCode": vCode, "Remember": remember, "AutoLogin": autologin, },
+            data: { "LoginName": userName, "Pwd": pwd, "VCode": vCode, "Remember": remember },
             success: function (data) {
-                var jsonObj = JSON.parse(data);
-                if (jsonObj.Statu == "ok") {
-                    window.location = jsonObj.BackUrl;
+                if (data.Statu == "ok") {
+                    window.location = data.BackUrl;
                 }
-                if (jsonObj.Statu == "nologin") {
+                if (data.Statu == "nologin") {
                     alert("您还没有登陆，请登录！");
-                    parent.location = jsonObj.BackUrl;
+                    parent.location = data.BackUrl;
 
                 }
-                if (jsonObj.Statu == "nopermission") {
+                if (data.Statu == "nopermission") {
                     alert(jsonObj.Msg);
-                    window.location = jsonObj.BackUrl;
+                    window.location = data.BackUrl;
                 }
-                if (jsonObj.Statu == "err") {
-                    alert(jsonObj.Msg);
-                    window.location = "/Login/Login/Index";
+                if (data.Statu == "err") {
+                    alert(data.Msg);
+                    document.getElementById("VCode").value = "";
+                    document.getElementById("VCode").onfocus;
                 }
             }
         })

@@ -484,7 +484,7 @@ namespace DALMSSQL
         }
         #endregion
 
-        #region 01.获取我的任务分页数据
+        #region 01.获取我的未完成任务分页数据
         /// <summary>
         /// 获取我的任务分页数据
         /// </summary>
@@ -522,7 +522,54 @@ namespace DALMSSQL
                                            IsComplete = taskParticipation.IsComplete,
                                            TaskSenderName = memberInformation.StuName,
                                            TaskTypeName = taskType.TaskTypeName
-                                       }).OrderBy(taskParticipation => taskParticipation.IsRead).ThenByDescending(taskParticipation => taskParticipation.TaskId).Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
+                                       }).OrderBy(taskParticipation => taskParticipation.TaskEndTime).ThenByDescending(taskParticipation => taskParticipation.TaskId).Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
+
+            return myTaskList;
+
+        }
+
+        #endregion
+
+        #region 01.获取我的已完成任务分页数据
+        /// <summary>
+        /// 获取我的任务分页数据
+        /// </summary>
+        /// <param name="pageIndex">页码</param>
+        /// <param name="pageSize">页大小</param>
+        /// <param name="stuNum">学号</param>
+        /// <param name="taskTypeId">任务类型ID</param>
+        /// <returns></returns>
+        public List<MyTask> GetPagedCompletedTaskList(int pageIndex, int pageSize, string stuNum, bool complete)
+        {
+
+            DbSet<T_TaskParticipation> taskParticipations = db.Set<T_TaskParticipation>();
+            DbSet<T_TaskInformation> taskInformations = db.Set<T_TaskInformation>();
+            DbSet<T_TaskType> taskTypes = db.Set<T_TaskType>();
+            DbSet<T_MemberInformation> memberInformations = db.Set<T_MemberInformation>();
+
+            List<MyTask> myTaskList = (from taskParticipation in taskParticipations
+                                       join taskInformation in taskInformations on taskParticipation.TaskId equals taskInformation.TaskId
+                                       join taskType in taskTypes on taskInformation.TaskTypeId equals taskType.TaskTypeId
+                                       join memberInformation in memberInformations on taskInformation.TaskSender equals memberInformation.StuNum
+                                       where taskParticipation.TaskReceiver == stuNum
+                                       && taskParticipation.IsComplete == complete
+                                       select new MyTask()
+                                       {
+                                           TaskId = taskParticipation.TaskId,
+                                           TaskSender = taskInformation.TaskSender,
+                                           TaskName = taskInformation.TaskName,
+                                           TaskTypeId = taskInformation.TaskTypeId,
+                                           TaskContent = taskInformation.TaskContent,
+                                           TaskBegTime = taskInformation.TaskBegTime,
+                                           TaskEndTime = taskInformation.TaskEndTime,
+                                           TaskReceiver = taskParticipation.TaskReceiver,
+                                           TaskGrade = taskParticipation.TaskGrade,
+                                           IsRead = taskParticipation.IsRead,
+                                           IsComplete = taskParticipation.IsComplete,
+                                           TaskSenderName = memberInformation.StuName,
+                                           TaskTypeName = taskType.TaskTypeName,
+                                           TaskFinishTime = taskParticipation.TaskFinishTime
+                                       }).OrderBy(taskParticipation => taskParticipation.TaskFinishTime).ThenByDescending(taskParticipation => taskParticipation.TaskId).Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
 
             return myTaskList;
 

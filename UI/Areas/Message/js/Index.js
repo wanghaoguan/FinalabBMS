@@ -1,7 +1,7 @@
 ﻿
 //===============<< 删除  >>=======================
-function Delete(obj){
-    alert("点击" + obj);
+function Delete(obj) {
+    //alert("点击" + obj);
     if (confirm("您确定要删除该信息吗？")) {
         $.post(
         "/Message/InsideMsg/DeleteReceivedBox",
@@ -45,7 +45,7 @@ function TrueDelete(obj){
 }
 //=========================<<  标记未读  >>======================
 function SetStatus(obj) {
-    alert("点击" + obj);
+    //alert("点击" + obj);
     if (confirm("您确定要标记为未读息吗？")) {
         $.post(
         "/Message/InsideMsg/SetStatus",

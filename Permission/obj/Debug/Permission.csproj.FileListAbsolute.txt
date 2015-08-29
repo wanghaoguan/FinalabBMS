@@ -58,3 +58,35 @@ D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Permission\bin\D
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Permission\bin\Debug\zh-Hans\EntityFramework.resources.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Permission\obj\Debug\Permission.dll
 D:\桌面\实验室网站 8-5\8-5整合代码\FinalWeb\FinalWeb\Permission\obj\Debug\Permission.pdb
+F:\实验室网站\FinalWeb\Permission\bin\Debug\Permission.dll
+F:\实验室网站\FinalWeb\Permission\bin\Debug\Permission.pdb
+F:\实验室网站\FinalWeb\Permission\bin\Debug\Common.dll
+F:\实验室网站\FinalWeb\Permission\bin\Debug\IBLL.dll
+F:\实验室网站\FinalWeb\Permission\bin\Debug\MODEL.dll
+F:\实验室网站\FinalWeb\Permission\bin\Debug\MVC.Helper.dll
+F:\实验室网站\FinalWeb\Permission\bin\Debug\Spring.Core.dll
+F:\实验室网站\FinalWeb\Permission\bin\Debug\EntityFramework.dll
+F:\实验室网站\FinalWeb\Permission\bin\Debug\DI.dll
+F:\实验室网站\FinalWeb\Permission\bin\Debug\Common.Logging.dll
+F:\实验室网站\FinalWeb\Permission\bin\Debug\Common.pdb
+F:\实验室网站\FinalWeb\Permission\bin\Debug\MODEL.pdb
+F:\实验室网站\FinalWeb\Permission\bin\Debug\MVC.Helper.pdb
+F:\实验室网站\FinalWeb\Permission\bin\Debug\IBLL.pdb
+F:\实验室网站\FinalWeb\Permission\bin\Debug\EntityFramework.xml
+F:\实验室网站\FinalWeb\Permission\bin\Debug\DI.pdb
+F:\实验室网站\FinalWeb\Permission\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站\FinalWeb\UI\bin\Permission.dll
+F:\实验室网站\FinalWeb\UI\bin\Permission.pdb
+F:\实验室网站\FinalWeb\Permission\obj\Debug\Permission.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalWeb\Permission\obj\Debug\Permission.dll
+F:\实验室网站\FinalWeb\Permission\obj\Debug\Permission.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Permission.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Permission.pdb
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Permission\obj\Debug\Permission.csprojResolveAssemblyReference.cache
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Permission\obj\Debug\Permission.dll
+D:\桌面\实验室网站8-17\实验室网站\FinalWeb\Permission\obj\Debug\Permission.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Permission.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\UI\bin\Permission.pdb
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Permission\obj\Debug\Permission.csprojResolveAssemblyReference.cache
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Permission\obj\Debug\Permission.dll
+C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Permission\obj\Debug\Permission.pdb
