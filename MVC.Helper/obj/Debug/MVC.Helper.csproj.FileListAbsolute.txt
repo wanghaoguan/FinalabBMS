@@ -159,3 +159,8 @@ C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\�
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.csprojResolveAssemblyReference.cache
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MVC.Helper\obj\Debug\MVC.Helper.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\MVC.Helper.dll
+F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\MVC.Helper.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\MVC.Helper\obj\Debug\MVC.Helper.csprojResolveAssemblyReference.cache
+F:\FINAL\FinalabBMS\FinalabBMS\MVC.Helper\obj\Debug\MVC.Helper.dll
+F:\FINAL\FinalabBMS\FinalabBMS\MVC.Helper\obj\Debug\MVC.Helper.pdb

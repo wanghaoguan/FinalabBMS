@@ -88,3 +88,13 @@ C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\�
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Debug\IBLL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\IBLL\bin\Debug\IBLL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\IBLL\bin\Debug\IBLL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\IBLL\bin\Debug\MODEL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\IBLL\bin\Debug\EntityFramework.dll
+F:\FINAL\FinalabBMS\FinalabBMS\IBLL\bin\Debug\MODEL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\IBLL\bin\Debug\EntityFramework.xml
+F:\FINAL\FinalabBMS\FinalabBMS\IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\FINAL\FinalabBMS\FinalabBMS\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache
+F:\FINAL\FinalabBMS\FinalabBMS\IBLL\obj\Debug\IBLL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\IBLL\obj\Debug\IBLL.pdb
