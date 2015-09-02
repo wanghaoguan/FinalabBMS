@@ -164,3 +164,8 @@ C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\�
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.csprojResolveAssemblyReference.cache
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\PersonalManger\obj\Debug\PersonalManger.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\PersonalManger.dll
+F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\PersonalManger.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\PersonalManger\obj\Debug\PersonalManger.csprojResolveAssemblyReference.cache
+F:\FINAL\FinalabBMS\FinalabBMS\PersonalManger\obj\Debug\PersonalManger.dll
+F:\FINAL\FinalabBMS\FinalabBMS\PersonalManger\obj\Debug\PersonalManger.pdb

@@ -74,3 +74,8 @@ C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\�
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Task\obj\Debug\Task.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Task\obj\Debug\Task.pdb
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Task\obj\Debug\Task.csprojResolveAssemblyReference.cache
+F:\FINAL\FinalabBMS\FinalabBMS\Task\obj\Debug\Task.csprojResolveAssemblyReference.cache
+F:\FINAL\FinalabBMS\FinalabBMS\Task\obj\Debug\Task.dll
+F:\FINAL\FinalabBMS\FinalabBMS\Task\obj\Debug\Task.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\Task.dll
+F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\Task.pdb

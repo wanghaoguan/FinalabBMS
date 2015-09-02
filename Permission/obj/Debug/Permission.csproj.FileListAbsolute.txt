@@ -90,3 +90,8 @@ C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\�
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Permission\obj\Debug\Permission.csprojResolveAssemblyReference.cache
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Permission\obj\Debug\Permission.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Permission\obj\Debug\Permission.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\Permission\obj\Debug\Permission.csprojResolveAssemblyReference.cache
+F:\FINAL\FinalabBMS\FinalabBMS\Permission\obj\Debug\Permission.dll
+F:\FINAL\FinalabBMS\FinalabBMS\Permission\obj\Debug\Permission.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\Permission.dll
+F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\Permission.pdb

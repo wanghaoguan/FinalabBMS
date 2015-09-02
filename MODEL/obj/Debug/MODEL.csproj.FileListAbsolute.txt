@@ -78,3 +78,12 @@ C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\�
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\obj\Debug\MODEL.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\obj\Debug\MODEL.pdb
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+F:\FINAL\FinalabBMS\FinalabBMS\MODEL\bin\Debug\MODEL.dll.config
+F:\FINAL\FinalabBMS\FinalabBMS\MODEL\bin\Debug\MODEL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\MODEL\bin\Debug\MODEL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\MODEL\bin\Debug\EntityFramework.dll
+F:\FINAL\FinalabBMS\FinalabBMS\MODEL\bin\Debug\EntityFramework.xml
+F:\FINAL\FinalabBMS\FinalabBMS\MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\FINAL\FinalabBMS\FinalabBMS\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+F:\FINAL\FinalabBMS\FinalabBMS\MODEL\obj\Debug\MODEL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\MODEL\obj\Debug\MODEL.pdb

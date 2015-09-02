@@ -152,3 +152,19 @@ C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\�
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\BLL\obj\Debug\BLL.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\BLL\obj\Debug\BLL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\BLL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\BLL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\DI.dll
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\IBLL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\IDAL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\MODEL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\Spring.Core.dll
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\EntityFramework.dll
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\Common.Logging.dll
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\DI.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\IBLL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\IDAL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\bin\Debug\MODEL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\obj\Debug\BLL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\BLL\obj\Debug\BLL.pdb

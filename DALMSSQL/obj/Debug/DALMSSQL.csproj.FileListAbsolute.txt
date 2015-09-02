@@ -88,3 +88,12 @@ C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\�
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\DALMSSQL\obj\Debug\DALMSSQL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\bin\Debug\DALMSSQL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\bin\Debug\DALMSSQL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\bin\Debug\IDAL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\bin\Debug\MODEL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\bin\Debug\IDAL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\bin\Debug\MODEL.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\obj\Debug\DALMSSQL.dll
+F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\obj\Debug\DALMSSQL.pdb

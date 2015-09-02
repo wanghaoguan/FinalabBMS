@@ -143,3 +143,8 @@ C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\�
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Duty\obj\Debug\Duty.csprojResolveAssemblyReference.cache
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Duty\obj\Debug\Duty.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\Duty\obj\Debug\Duty.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\Duty\obj\Debug\Duty.csprojResolveAssemblyReference.cache
+F:\FINAL\FinalabBMS\FinalabBMS\Duty\obj\Debug\Duty.dll
+F:\FINAL\FinalabBMS\FinalabBMS\Duty\obj\Debug\Duty.pdb
+F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\Duty.dll
+F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\Duty.pdb

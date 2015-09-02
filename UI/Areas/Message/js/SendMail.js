@@ -3,6 +3,8 @@
 $(function () {
     $("#sendNow").click(function () {
         //alert("点击了");
+       
+
         $sendEmail = $("#sendEmail");
         $pwd = $("#pwd");
         $receiveEmail = $("#receiveEmail");
@@ -27,6 +29,7 @@ $(function () {
             alert("请输入正文！");
             $("#content").css("border", "1px solid red");
         } else {
+            $("#statusSend").css({ "display": "block" });
             $.post(
             "/Message/Mail/Send",
             {
@@ -40,10 +43,11 @@ $(function () {
             function (data) {
                 if (data == "ok") {
                     alert("发送成功！");
+                    $("#statusSend").css({ "display": "none" });
                 } else {
-                    alert(data);
                     alert("发送失败！");
                     alert("原因可能是:发送邮箱和密码不对！");
+                    $("#statusSend").css({ "display": "none" });
                 }
             }
             );

@@ -49,7 +49,7 @@
             $('#file_upload').uploadify({
                 'swf': '@Url.Content("~/Areas/Message/uploadify3.2/uploadify.swf")',
                 'uploader': '/Message/InsideMsg/Upload',
-
+                'fileSizeLimit': '0',//单个文件大小，0为无限制，可接受KB,MB,GB等单位的字符串值
                 width: 100,                          // 按钮的宽度
                 height: 23,                         // 按钮的高度
                 buttonText: "附件上传",                 // 按钮上的文字

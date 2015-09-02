@@ -33,13 +33,20 @@ namespace Message
             string title = Request["title"];
             string content = Request["content"];
             string hiddenFileAddress = Request["hiddenFileAddress"];
-
-            string[] arr = hiddenFileAddress.Split(';');
-            for (int i = 0; i < arr.Length; i++)
+            string result;
+            if (hiddenFileAddress != "")
             {
-                arr[i] = Server.MapPath("/Areas/uploadFile/" + arr[i]);
+                string[] arr = hiddenFileAddress.Split(';');
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    arr[i] = Server.MapPath("/Areas/uploadFile/" + arr[i]);
+                }
+                result = SendEmail(receiveEmail, title, content, sendEmail, pwd, arr);
             }
-            string result = SendEmail(receiveEmail, title, content, sendEmail, pwd, arr);
+            else
+            {
+                result = SendEmail(receiveEmail, title, content, sendEmail, pwd);
+            }
 
             return result;
         } 
@@ -69,12 +76,24 @@ namespace Message
 
             try
             {
-                WebMail.Send(
+                if (filesPaths!=null)
+                {
+                    WebMail.Send(
                     to: receiveEmail,
                     subject: title,
                     body: content,
                     filesToAttach: filesPaths
                     );
+                }
+                else
+                {
+                    WebMail.Send(
+                    to: receiveEmail,
+                    subject: title,
+                    body: content
+                    );
+                }
+                
             }
             catch (Exception e)
             {
