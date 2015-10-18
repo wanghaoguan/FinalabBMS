@@ -92,11 +92,11 @@ namespace PersonalManger
             Expression<Func<MODEL.T_MemberInformation, bool>> filter = null;
             if (perId == Entry.EntryPresident)//录入总裁
             {
-                filter = u => u.IsDelete == false && (u.StuNum.Contains(dttwo)) && (u.T_RoleAct.Select(p => p.RoleId).Contains(Position.Minister) == true) && (u.T_RoleAct.Select(p => p.RoleId).Contains(Position.President) == false);
+                filter = u => u.IsDelete == false && (u.StuNum.Contains(dttwo)) && (u.TechnicalLevel == TechnicalLevel.EliteProgram) && (u.T_RoleAct.Select(p => p.RoleId).Contains(Position.President) == false);
             }
             if (perId == Entry.EntryMinister)//录入部长
             {
-                filter = u => u.IsDelete == false && (u.StuNum.Contains(dttwo)) && (u.T_RoleAct.Select(p => p.RoleId).Contains(Position.Minister) == false);
+                filter = u => u.IsDelete == false && (u.StuNum.Contains(dttwo)) && (u.T_RoleAct.Select(p => p.RoleId).Contains(Position.Minister) == false && u.TechnicalLevel == TechnicalLevel.FullMember);
             }
             if (perId == Entry.EntryStudyLeader)//录入学习顾问团团长
             {
@@ -124,7 +124,7 @@ namespace PersonalManger
             }
             if (perId == Entry.EntryMember)//录入正式成员
             {
-                filter = u => u.IsDelete == false && (u.StuNum.Contains(dtone)) && (u.TechnicalLevel == TechnicalLevel.Student);
+                filter = u => u.IsDelete == false && (u.StuNum.Contains(dtone)||u.StuNum.Contains(dttwo)) && (u.TechnicalLevel == TechnicalLevel.Student);
             }
             List<MODEL.T_MemberInformation> memlist = new List<MODEL.T_MemberInformation>();
             memlist = OperateContext.Current.BLLSession.IMemberInformationBLL.GetListBy(filter).ToList();

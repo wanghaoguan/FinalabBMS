@@ -164,3 +164,8 @@ F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\MVC.Helper.pdb
 F:\FINAL\FinalabBMS\FinalabBMS\MVC.Helper\obj\Debug\MVC.Helper.csprojResolveAssemblyReference.cache
 F:\FINAL\FinalabBMS\FinalabBMS\MVC.Helper\obj\Debug\MVC.Helper.dll
 F:\FINAL\FinalabBMS\FinalabBMS\MVC.Helper\obj\Debug\MVC.Helper.pdb
+F:\实验室网站\FinalabBMS\UI\bin\MVC.Helper.dll
+F:\实验室网站\FinalabBMS\UI\bin\MVC.Helper.pdb
+F:\实验室网站\FinalabBMS\MVC.Helper\obj\Debug\MVC.Helper.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalabBMS\MVC.Helper\obj\Debug\MVC.Helper.dll
+F:\实验室网站\FinalabBMS\MVC.Helper\obj\Debug\MVC.Helper.pdb

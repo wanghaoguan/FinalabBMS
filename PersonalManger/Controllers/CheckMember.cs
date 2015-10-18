@@ -15,11 +15,6 @@ using System.Globalization;
 using System.Transactions;
 using System.Data;
 
-
-
-
-
-
 namespace PersonalManger
 {
     /// <summary>

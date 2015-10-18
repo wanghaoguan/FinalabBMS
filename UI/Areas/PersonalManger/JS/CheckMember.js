@@ -31,6 +31,8 @@ var rowForm;//开始的记录数
 var rowTO;//结束的记录数
 var searchData;//存储查询的条件
 
+var IsNewSearch=1;//得到是否是一个新的查询，是新查询就为1，否则为2
+
 $(function () {
     //关闭Jquery的浏览器缓存
     $.ajaxSetup({ cache: false });
@@ -90,14 +92,14 @@ $(function () {
     $(".a-first").click(function () {
         $("#body").empty();
         pageIndex = 1;
-        btnSearch();
+        btnSearch(2);
     });
 
     //点击最后一页按钮触发事件
     $(".a-last").click(function () {
         $("#body").empty();
         pageIndex = pageSum;
-        btnSearch();
+        btnSearch(2);
     });
 
     //点击向前翻页按钮触发事件
@@ -106,7 +108,7 @@ $(function () {
         else {
             $("#body").empty();
             pageIndex = pageIndex - 1;
-            btnSearch();
+            btnSearch(2);
         }
     });
     //点击向后翻页按钮触发事件
@@ -115,7 +117,7 @@ $(function () {
         else {
             $("#body").empty();
             pageIndex = pageIndex + 1;
-            btnSearch();
+            btnSearch(2);
         }
     });
     //点击刷新按钮触发事件
@@ -173,7 +175,7 @@ $.extend({
     }
 });
 //点击搜索时
-function btnSearch() {
+function btnSearch(IsNewSearch) {
     var obj1 = document.getElementById("department");
     var index1 = obj1.selectedIndex;
     var valu1 = obj1[index1].value;
@@ -182,7 +184,7 @@ function btnSearch() {
     var valu = obj.options[index].value;
     var txt = document.getElementById("txt").value;
     //还要判断输入格式，学号或姓名那块，输入字符个数不能超过12位
-    var reg = /^\s*[\s\S]{1,10}\s*$/;
+    var reg = /^\s*[\s\S]{1,12}\s*$/;
     if (txt != "") {
         if (!reg.test(txt)) {
             alert("您输入学号或姓名格式错误，请重新输入！");
@@ -192,7 +194,16 @@ function btnSearch() {
         }
     }
     searchData = valu1 + "," + valu + "," + txt;
+    if (IsNewSearch == 1) {
+        pageIndex = 1;
+    }
     Search(searchData);
+}
+
+document.onkeydown=function(){
+    if(event.keyCode==13){
+        btnSearch(1);
+    }
 }
 
 //进行查询dataBy:查询条件Obj;
@@ -204,7 +215,6 @@ function Search(searchData) {
         success: function (data) {
             if (data.Statu == "ok") {
                 $("#body").empty();
-                var pageIndex = 1;//初始化页数为1
                 PreCreateTable(data)
             }
             if (data.Statu == "nologin") {

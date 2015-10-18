@@ -52,4 +52,9 @@ namespace MVC.Helper
         public static readonly int EntryDepartment = 46;//录入部门成员权限ID
     }
 
+    public class WeekCount
+    {
+        public static readonly int weekCount = 18;//设置一个学期值日表的周数为16周
+    }
+
 }

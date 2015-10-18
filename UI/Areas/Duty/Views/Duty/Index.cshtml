@@ -17,6 +17,10 @@
             a:link { text-decoration: none; color: #d9534f; }
             a:visited { color: green; }
             a:hover { color: green; }
+        #floot{
+            width:350px;
+            margin:0 auto;
+        }
     </style>
     <script>
         $(function () {
@@ -57,6 +61,22 @@
                 })
             }
         }
+        function ClearAll(){
+            if (confirm("确定清空所有数据？")) {
+                $.ajax({
+                    url: '/Duty/Duty/ClearAll',
+                    type: 'post',
+                    success: function (obj) {
+                        if(obj.Statu=="ok"){
+                            alert("清空成功!");
+                            window.location = obj.BackUrl;
+                        } else {
+                            alert("清空失败!");
+                    }
+                }
+                });
+            }
+        }
     </script>
 </head>
 <body style="font-family: 'Microsoft YaHei'; font-size: 12px">
@@ -92,7 +112,9 @@
         }
         @if (ViewBag.IsEdit)
         {
-            <button type="button" id="Edit" class="btn btn-success" style="float: right; width: 100px;">编辑</button>
+            <div id="floot">
+            <button type="button" class="btn btn-info" style=" width: 120px;"onclick="ClearAll()">清空所有数据</button>
+                <button type="button" id="Edit" class="btn btn-info" style="width: 120px;">编辑</button></div>
         }
     </div>
 </body>

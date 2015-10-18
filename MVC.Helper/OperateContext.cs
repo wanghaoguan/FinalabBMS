@@ -146,7 +146,7 @@ namespace MVC.Helper
             //应该到业务层查询
             MODEL.T_MemberInformation member = BLLSession.IMemberInformationBLL.GetListBy(u => u.StuNum == user.LoginName).FirstOrDefault();
             //如果登陆成功
-            if (user != null)
+            if (user != null&&user.Pwd==member.LoginPwd)
             {
                 //Usr是当前用户对象
                 Usr = member;

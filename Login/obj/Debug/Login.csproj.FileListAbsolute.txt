@@ -158,3 +158,8 @@ F:\FINAL\FinalabBMS\FinalabBMS\UI\bin\Login.pdb
 F:\FINAL\FinalabBMS\FinalabBMS\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
 F:\FINAL\FinalabBMS\FinalabBMS\Login\obj\Debug\Login.dll
 F:\FINAL\FinalabBMS\FinalabBMS\Login\obj\Debug\Login.pdb
+F:\实验室网站\FinalabBMS\UI\bin\Login.dll
+F:\实验室网站\FinalabBMS\UI\bin\Login.pdb
+F:\实验室网站\FinalabBMS\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalabBMS\Login\obj\Debug\Login.dll
+F:\实验室网站\FinalabBMS\Login\obj\Debug\Login.pdb

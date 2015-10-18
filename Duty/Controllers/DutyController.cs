@@ -115,6 +115,29 @@ namespace Duty.Controllers
             }
         }
 #endregion
+        #region 1.5清空所有数据 ActionResult ClearAll()
+        [Common.Attributes.Skip]
+        public ActionResult ClearAll()
+        {
+            try
+            {
+                if (OperateContext.Current.BLLSession.IOnDutyBLL.DelBy(u => u.Week<WeekCount.weekCount) > 0)
+                {
+                    return OperateContext.Current.RedirectAjax("ok", "清空成功", null, "/Duty/Duty/Index");
+                }
+                else
+                {
+                    return OperateContext.Current.RedirectAjax("err", "清空失败", null, null);
+                }
+            }
+            catch (Exception ex)
+            {
+                return OperateContext.Current.RedirectAjax("err", ex.Message, null, null);
+            }
+        }
+        #endregion
+
+
 
         #region 处理异常 protected override void OnException(ExceptionContext filterContext)
         protected override void OnException(ExceptionContext filterContext)

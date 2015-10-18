@@ -97,3 +97,12 @@ F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\bin\Debug\MODEL.pdb
 F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
 F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\obj\Debug\DALMSSQL.dll
 F:\FINAL\FinalabBMS\FinalabBMS\DALMSSQL\obj\Debug\DALMSSQL.pdb
+F:\实验室网站\FinalabBMS\DALMSSQL\bin\Debug\DALMSSQL.dll
+F:\实验室网站\FinalabBMS\DALMSSQL\bin\Debug\DALMSSQL.pdb
+F:\实验室网站\FinalabBMS\DALMSSQL\bin\Debug\IDAL.dll
+F:\实验室网站\FinalabBMS\DALMSSQL\bin\Debug\MODEL.dll
+F:\实验室网站\FinalabBMS\DALMSSQL\bin\Debug\IDAL.pdb
+F:\实验室网站\FinalabBMS\DALMSSQL\bin\Debug\MODEL.pdb
+F:\实验室网站\FinalabBMS\DALMSSQL\obj\Debug\DALMSSQL.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalabBMS\DALMSSQL\obj\Debug\DALMSSQL.dll
+F:\实验室网站\FinalabBMS\DALMSSQL\obj\Debug\DALMSSQL.pdb
