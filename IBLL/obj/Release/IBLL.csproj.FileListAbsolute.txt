@@ -8,3 +8,13 @@ C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\�
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Release\IBLL.csprojResolveAssemblyReference.cache
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Release\IBLL.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\IBLL\obj\Release\IBLL.pdb
+F:\实验室网站\FinalabBMS\IBLL\bin\Release\IBLL.dll
+F:\实验室网站\FinalabBMS\IBLL\bin\Release\IBLL.pdb
+F:\实验室网站\FinalabBMS\IBLL\bin\Release\MODEL.dll
+F:\实验室网站\FinalabBMS\IBLL\bin\Release\EntityFramework.dll
+F:\实验室网站\FinalabBMS\IBLL\bin\Release\MODEL.pdb
+F:\实验室网站\FinalabBMS\IBLL\bin\Release\EntityFramework.xml
+F:\实验室网站\FinalabBMS\IBLL\bin\Release\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站\FinalabBMS\IBLL\obj\Release\IBLL.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalabBMS\IBLL\obj\Release\IBLL.dll
+F:\实验室网站\FinalabBMS\IBLL\obj\Release\IBLL.pdb

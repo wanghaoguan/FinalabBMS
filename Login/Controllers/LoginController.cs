@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Helpers;
 using System.Web.Mvc;
 
 namespace Login.Controllers
@@ -48,11 +49,6 @@ namespace Login.Controllers
         }
         #endregion
         #region 1.3登陆，表单提交过来的数据+public ActionResult Login(MODEL.ViewModel.LoginUser user)
-        /// <summary>
-        /// 登陆，表单提交过来的数据
-        /// </summary>
-        /// <param name="user"></param>
-        /// <returns></returns>
          [Common.Attributes.Skip]
         public ActionResult Login(MODEL.ViewModel.LoginUser user)
         {
@@ -95,10 +91,6 @@ namespace Login.Controllers
         } 
         #endregion
         #region 1.4登陆成功进入主页+ public ActionResult MainPage()
-        /// <summary>
-        /// 登陆成功进入主页
-        /// </summary>
-        /// <returns></returns>
         public ActionResult MainPage()
         {
             ViewBag.name = OperateContext.Current.Usr.StuName;
@@ -142,7 +134,117 @@ namespace Login.Controllers
         } 
         #endregion
 
-        #region 2.1 根据当前登陆用户 权限 生成菜单 +GetMenuData()
+        #region 2.1忘记密码首页+ActionResult ForgetPwd()
+        [Common.Attributes.Skip]
+        public ActionResult ForgetPwd()
+        {
+            //跳转到一个忘记密码页面
+            return View();
+        }
+        #endregion
+        #region 2.2将信息发送到邮箱 ActionResult GetPwd()
+        [Common.Attributes.Skip]
+        public ActionResult GetPwd()
+        {
+            string num = Request.QueryString["stunum"];
+            List<MODEL.T_MemberInformation> mem= OperateContext.Current.BLLSession.IMemberInformationBLL.GetListBy(u => u.StuNum == num).ToList();
+            if (mem.Count > 0)
+            {
+                //发送内容到这个用户的邮箱
+                string mail=mem[0].Email;
+                if(!string.IsNullOrEmpty(mail)){
+                    string href = "http://www.finalab.cn/login/login/ModifyPwd";
+                    if (SendEmail(mail, "修改密码", href, "1666196950@qq.com", "lrhLRH072131") == "ok")
+                    {
+                        return Content("<script>alert('信息已发送到您的邮箱，请注意查看！');window.location='/Login/Login/Index'</script>");
+                    }
+                }
+               
+            }
+            return Content("<script>alert('不存在这个学号，请您重新输入学号！');window.location='/Login/Login/ForgetPwd'</script>");
+        }
+        #endregion
+        #region 2.3修改密码页面+ActionResult ModifyPwd()
+        [Common.Attributes.Skip]
+        public ActionResult ModifyPwd()
+        {
+            return View();
+        }
+        #endregion
+       
+        #region 2.4修改密码到数据库+ActionResult ModifyPwd()
+        [Common.Attributes.Skip]
+        public ActionResult ReallyModifyPwd()
+        {
+            string pwd = Request.Form["newPwd"].ToString();
+            string num = Request.Form["stunum"].ToString();
+            if (!string.IsNullOrEmpty(pwd))
+            {
+                MODEL.T_MemberInformation mem = OperateContext.Current.BLLSession.IMemberInformationBLL.GetListBy(u => u.StuNum == num).FirstOrDefault();
+                mem.LoginPwd = pwd;
+                if (OperateContext.Current.BLLSession.IMemberInformationBLL.Modify(mem, "LoginPwd") > 0)
+                {
+                    return Content("<script>alert('修改成功！');window.location='/Login/Login/index'</script>");
+                }
+            }
+            return Content("<script>alert('不存在这个学号，请您重新输入学号！');window.location='/Login/Login/ForgetPwd'</script>");
+        }
+        #endregion
+        
+        #region 2.5发送邮件+private string SendEmail(string receiveEmail, string title, string content, string sendEmail, string pwd, string[] filesPaths = null)
+        /// <summary>
+        /// 发送邮件
+        /// </summary>
+        /// <param name="receiveEmail">接收者邮箱</param>
+        /// <param name="title">邮件标题</param>
+        /// <param name="content">邮件正文</param>
+        /// <param name="sendEmail">发送者邮箱</param>
+        /// <param name="pwd">发送者邮箱密码</param>
+        /// <param name="filesPaths">附件</param>
+        /// <returns></returns>
+        private string SendEmail(string receiveEmail, string title, string content, string sendEmail, string pwd, string[] filesPaths = null)
+        {
+            string[] email = sendEmail.Split('@');
+            WebMail.SmtpServer = "smtp." + email[email.Length - 1];//获取或设置要用于发送电子邮件的 SMTP 中继邮件服务器的名称。
+            WebMail.SmtpPort = 25;//发送端口
+            WebMail.EnableSsl = true;//是否启用 SSL GMAIL 需要 而其他都不需要 具体看你在邮箱中的配置
+            WebMail.UserName = sendEmail;//账号名
+            WebMail.From = sendEmail;//邮箱名
+            WebMail.Password = pwd;//密码
+            WebMail.SmtpUseDefaultCredentials = true;//是否使用默认配置
+
+            try
+            {
+                if (filesPaths != null)
+                {
+                    WebMail.Send(
+                    to: receiveEmail,
+                    subject: title,
+                    body: content,
+                    filesToAttach: filesPaths
+                    );
+                }
+                else
+                {
+                    WebMail.Send(
+                    to: receiveEmail,
+                    subject: title,
+                    body: content
+                    );
+                }
+
+            }
+            catch (Exception e)
+            {
+                return "nook";
+            }
+            return "ok";
+        }
+        #endregion
+
+
+
+        #region 3.1 根据当前登陆用户 权限 生成菜单 +GetMenuData()
         /// <summary>
         /// 根据当前登陆用户 权限 生成菜单
         /// </summary>
@@ -152,7 +254,7 @@ namespace Login.Controllers
             return Content(OperateContext.Current.UsrMenuJsonStr);
         }
         #endregion
-        #region 2.2登入后的首页 ActionResult Welcome()
+        #region 3.2登入后的首页 ActionResult Welcome()
         [Common.Attributes.Skip]
         public ActionResult Welcome()
         {
@@ -161,6 +263,8 @@ namespace Login.Controllers
             return View();
         } 
         #endregion
+
+      
 
 
         #region 处理异常 protected override void OnException(ExceptionContext filterContext)

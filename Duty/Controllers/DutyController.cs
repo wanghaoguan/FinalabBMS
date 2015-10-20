@@ -114,9 +114,8 @@ namespace Duty.Controllers
                 return OperateContext.Current.RedirectAjax("err", ex.Message, null, null);
             }
         }
-#endregion
+       #endregion
         #region 1.5清空所有数据 ActionResult ClearAll()
-        [Common.Attributes.Skip]
         public ActionResult ClearAll()
         {
             try

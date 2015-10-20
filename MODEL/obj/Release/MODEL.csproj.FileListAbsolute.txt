@@ -6,3 +6,12 @@ C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\�
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\bin\Release\zh-Hans\EntityFramework.resources.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\obj\Release\MODEL.dll
 C:\Users\tengyu\Documents\Tencent Files\793061484\FileRecv\实验室网站8-17\实验室网站8-17\实验室网站\FinalWeb\MODEL\obj\Release\MODEL.pdb
+F:\实验室网站\FinalabBMS\MODEL\bin\Release\MODEL.dll.config
+F:\实验室网站\FinalabBMS\MODEL\bin\Release\MODEL.dll
+F:\实验室网站\FinalabBMS\MODEL\bin\Release\MODEL.pdb
+F:\实验室网站\FinalabBMS\MODEL\bin\Release\EntityFramework.dll
+F:\实验室网站\FinalabBMS\MODEL\bin\Release\EntityFramework.xml
+F:\实验室网站\FinalabBMS\MODEL\bin\Release\zh-Hans\EntityFramework.resources.dll
+F:\实验室网站\FinalabBMS\MODEL\obj\Release\MODEL.csprojResolveAssemblyReference.cache
+F:\实验室网站\FinalabBMS\MODEL\obj\Release\MODEL.dll
+F:\实验室网站\FinalabBMS\MODEL\obj\Release\MODEL.pdb

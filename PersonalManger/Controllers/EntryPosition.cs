@@ -77,7 +77,6 @@ namespace PersonalManger
             DateTime dt = DateTime.Now;
             string dtone;
             string dttwo;
-            string dtthree;
             if (dt.Month >= 9)
             {
                 dtone =dt.Year.ToString();
@@ -120,7 +119,7 @@ namespace PersonalManger
             }
             if (perId == Entry.EntryDepartment)//录入部门成员
             {
-                filter = u => u.IsDelete == false && (u.StuNum.Contains(dtone)) && (u.TechnicalLevel == TechnicalLevel.FullMember);
+                filter = u => u.IsDelete == false && (u.StuNum.Contains(dtone) || u.StuNum.Contains(dttwo)) && (u.TechnicalLevel == TechnicalLevel.FullMember);
             }
             if (perId == Entry.EntryMember)//录入正式成员
             {
@@ -443,13 +442,13 @@ namespace PersonalManger
             //将选中的人删除
             if (DelData(perId, modifyMem,dtthree))
             {
-                return Redirect("/PersonalManger/EntryPosition/EntryChoose");
+                return Content("<script>alert('删除成功！');window.location='/PersonalManger/EntryPosition/EntryChoose'</script>");
             }
-            return Content("<script>alert('录入失败,请您重新录入');window.location='/PersonalManger/EntryPosition/EntryChoose'</script>");
+            return Content("<script>alert('删除失败,请您重新删除');window.location='/PersonalManger/EntryPosition/EntryChoose'</script>");
         }
         #endregion
 
-        #region 4.4到数据库里删除数据 DelData(int perId, List<MODEL.T_MemberInformation> modifyMem,string dtThree)
+        #region 4.4开始删除数据 DelData(int perId, List<MODEL.T_MemberInformation> modifyMem,string dtThree)
         public bool DelData(int perId, List<MODEL.T_MemberInformation> modifyMem,string dtThree)
         {
             if (perId == Entry.EntryPresident)//删除总裁
@@ -512,7 +511,7 @@ namespace PersonalManger
                 int count = 0;
                 foreach (MODEL.T_MemberInformation mem in memList)
                 {
-                    //开始录入
+                    //开始删除数据
                     roleAct = new MODEL.T_RoleAct();
                     roleAct.RoleId = roleId;
                     roleAct.RoleActor = mem.StuNum;
@@ -529,13 +528,14 @@ namespace PersonalManger
         }
         #endregion
 
-       
+        #region 处理异常
         protected override void OnException(ExceptionContext filterContext)
         {
             GetAbnormal ab = new GetAbnormal();
             ab.Abnormal(filterContext);
             base.OnException(filterContext);
         }
+       #endregion
 
 
 

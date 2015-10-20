@@ -3,6 +3,101 @@ function Edit(stuNum) {
 
 }
 
+//----------------------------------------权限增删改查---------------------------------------------
+var objId;//得到每次点击后的权限Id
+var objtr;//存储点击每一行后的对象
+var lasttr;//存储上一次每一行的对象
+var count = 1;//设置未被点击背景颜色
+function clickrow(obj) {
+    objtr = obj;
+    obj.style.backgroundColor = "#16CFF1";
+    if (count != 1) {
+        lasttr.style.backgroundColor = "rgb(237,241,249)";
+    }
+    count = count + 1;
+    objId = obj.cells[0];
+    lasttr = obj;
+}
+//编辑权限
+function edit() {
+    if (objtr == null) {
+        alert("请您先选择权限！");
+        return;
+    }
+    window.location = "/Permission/Permission/HandlePermission?operate=2&perid=" + objId.innerText;
+}
+//新增权限
+function add() {
+    window.location = "/Permission/Permission/HandlePermission?operate=1";
+}
+//删除权限
+function del() {
+    if (objtr == null) {
+        alert("请您先选择权限！");
+        return;
+    }
+    var perid = objId.innerText;
+    if (confirm("权限涉及到具体的代码，删除后可能导致网站无法运行，请谨慎删除！")) {
+        $.ajax({
+            url: '/Permission/Permission/DelPer',
+            type: 'post',
+            data: { "perid": perid },
+            success: function (data) {
+                if (data.Statu == "ok") {
+                    alert("删除成功");
+                    window.location = "/Permission/Permission/PerIndex";
+                }
+                if (data.Statu == "err") {
+                    alert("删除失败");
+                }
+            }
+        });
+    }
+}
+//查看权限详细信息
+function show() {
+    if (objtr == null) {
+        alert("请您先选择权限！");
+        return;
+    }
+    var perid = objId.innerText;
+    window.location = "/Permission/Permission/HandlePermission?operate=3&perid=" + objId.innerText;
+}
+
+
+//分页有关方法--------------------------------------------------------------------------------------
+//点击后跳转到第一页
+function FirstPage() {
+    document.getElementById("firstPage").href = "/Permission/Permission/PerIndex?page=1";
+}
+//点击后跳转到最后一页s
+function LastPage() {
+    var allRows = document.getElementById("allRows").value;
+    var lastPage = Math.ceil(allRows / 10);
+    document.getElementById("lastPage").href = "/Permission/Permission/PerIndex?page=" + lastPage;
+}
+//点击后跳转到上一页
+function FrontPage() {
+    var pageNow = document.getElementById("pageNow").textContent;
+    var allRows = document.getElementById("allRows").value;
+    if (pageNow > 1) {
+        var page = Number(pageNow);
+        page = page - 1;
+        document.getElementById("frontPage").href = "/Permission/Permission/PerIndex?page=" + page;
+    }
+}
+//点击后跳转到下一页
+function NextPage() {
+    var pageNow = document.getElementById("pageNow").textContent;
+    var allRows = document.getElementById("allRows").value;
+    var lastPage = Math.ceil(allRows / 10);
+    if (pageNow < lastPage) {
+        var page = Number(pageNow);
+        page = page + 1;
+        document.getElementById("nextPage").href = "/Permission/Permission/PerIndex?page=" + page;
+    }
+}
+
 //删除方法
 function Delete(stuNum) {
     if (confirm("确定要删除吗？")) {

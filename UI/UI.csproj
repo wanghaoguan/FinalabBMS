@@ -175,6 +175,7 @@
     <Content Include="Areas\JoinUs\JS\question-manage-modify.js" />
     <Content Include="Areas\JoinUs\JS\question-manage-search.js" />
     <Content Include="Areas\Login\CSS\Index.css" />
+    <Content Include="Areas\Login\CSS\HeadAndFoot.css" />
     <Content Include="Areas\Login\CSS\styles.css" />
     <Content Include="Areas\Login\CSS\welcome.css" />
     <Content Include="Areas\Login\final\13.jpg" />
@@ -841,13 +842,10 @@
     <Content Include="My97DatePicker\WdatePicker.js" />
     <Content Include="Areas\Permission\Views\CSS\taskRelease.css" />
     <Content Include="Areas\Permission\Views\JS\Permission.js" />
-    <Content Include="Areas\Permission\Views\JS\DepartmentInfo.js" />
-    <Content Include="Areas\Permission\Views\JS\EntryPosition.js" />
     <Content Include="Areas\PersonalManger\CSS\DepartmentInfo.css" />
     <Content Include="Areas\PersonalManger\CSS\EntryPosition.css" />
     <Content Include="Areas\PersonalManger\Images\serach.png" />
     <Content Include="Areas\PersonalManger\JS\CheckMember.js" />
-    <Content Include="Areas\PersonalManger\JS\DepartmentInfo.js" />
     <Content Include="Areas\PersonalManger\JS\EntryPosition.js" />
     <Content Include="bootstrap\css\bootstrap-theme.css" />
     <Content Include="bootstrap\css\bootstrap-theme.min.css" />
@@ -969,7 +967,6 @@
     <Content Include="Areas\JoinUs\Views\QuestionManage\Modify.cshtml" />
     <Content Include="Areas\JoinUs\Views\Web.config" />
     <Content Include="Areas\Permission\Views\Role\ReallyDelMsg.cshtml" />
-    <Content Include="Areas\Login\Views\Login\Index2.cshtml" />
     <Content Include="DisplayUI\bootstrap-3.3.5-dist\css\bootstrap-theme.css.map" />
     <Content Include="DisplayUI\bootstrap-3.3.5-dist\css\bootstrap.css.map" />
     <Content Include="DisplayUI\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.eot" />
@@ -991,6 +988,9 @@
     <Content Include="DisplayUI\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="DisplayUI\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="DisplayUI\fonts\Imprima-Regular.ttf" />
+    <Content Include="Areas\Login\Views\Login\ForgetPwd.cshtml" />
+    <Content Include="Areas\Login\Views\Login\ModifyPwd.cshtml" />
+    <None Include="Properties\PublishProfiles\final10-19-xiaobai.pubxml" />
     <None Include="Properties\PublishProfiles\finlab-0819-1.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Areas\Login\CSS\Login.css" />
