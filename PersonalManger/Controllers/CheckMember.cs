@@ -585,10 +585,10 @@ namespace PersonalManger
             if (Request.Form["Class"] != null) { list.Add("Class"); listName.Add("班级"); }
             if (Request.Form["TelephoneNumber"] != null) { list.Add("TelephoneNumber"); listName.Add("电话号码"); }
             if (Request.Form["Department"] != null) { list.Add("Department"); listName.Add("部门"); }
-            if (Request.Form["TechnicalGuideNumber"] != null) { list.Add("TechnicalGuideNumber"); listName.Add("技术指导号"); }
+            if (Request.Form["StudyGuideNumber"] != null) { list.Add("StudyGuideNumber"); listName.Add("指导学长学姐"); }
             if (Request.Form["JoinTime"] != null) { list.Add("JoinTime"); listName.Add("加入时间"); }
             if (Request.Form["Major"] != null) { list.Add("Major"); listName.Add("主修"); }
-            if (Request.Form["Counseloer"] != null) { list.Add("Counseloer"); listName.Add("辅导员"); }
+            if (Request.Form["Counseloer"] != null) { list.Add("Counselor"); listName.Add("辅导员"); }
             if (Request.Form["HeadTeacher"] != null) { list.Add("HeadTeacher"); listName.Add("班主任"); }
             if (Request.Form["UndergraduateTutor"] != null) { list.Add("UndergraduateTutor"); listName.Add("毕业导师"); }
             if (Request.Form["HomPhoneNumber"] != null) { list.Add("HomPhoneNumber"); listName.Add("家庭电话"); }
@@ -606,11 +606,20 @@ namespace PersonalManger
             DataTable dt = OperateContext.Current.BLLSession.IMemberInformationBLL.GetPartData(list,depart);
             //如果选择了部门那么导出时要将数字转为部门名
             int count = 0;
+            //如果选择的指导学长学姐要将学号转换为姓名,下面变量是的得到导出的学号在list列表里的顺序
+            int guideCount=0;
             if (Request.Form["Department"] != null)
             {
                 for (int i = 0; i < list.Count; i++)
                 {
                     if (list[i] == "Department") { count = i; }
+                }
+            }
+            if (Request.Form["StudyGuideNumber"] != null)
+            {
+                for (int i = 0; i<list.Count; i++)
+                {
+                    if (list[i] == "StudyGuideNumber") { guideCount = i; }
                 }
             }
             #endregion
@@ -638,7 +647,19 @@ namespace PersonalManger
                     }
                     else
                     {
-                        hro.CreateCell(colIndex).SetCellValue(dt.Rows[rowIndex][colIndex].ToString());
+                        if (colIndex == guideCount && guideCount != 0)
+                        {
+                            string num = dt.Rows[rowIndex][colIndex].ToString();
+                            if (!string.IsNullOrEmpty(num))
+                            {
+                                string name = OperateContext.Current.BLLSession.IMemberInformationBLL.GetListBy(u => u.StuNum == num).FirstOrDefault().StuName;
+                                hro.CreateCell(colIndex).SetCellValue(name);
+                            }
+                        }
+                        else
+                        {
+                            hro.CreateCell(colIndex).SetCellValue(dt.Rows[rowIndex][colIndex].ToString());
+                        }
                     } 
                 }
             }
@@ -796,12 +817,12 @@ namespace PersonalManger
         }
 
         //处理异常
-        //protected override void OnException(ExceptionContext filterContext)
-        //{
-        //    GetAbnormal ab = new GetAbnormal();
-        //    ab.Abnormal(filterContext);
-        //    base.OnException(filterContext);
-        //}
+        protected override void OnException(ExceptionContext filterContext)
+        {
+            GetAbnormal ab = new GetAbnormal();
+            ab.Abnormal(filterContext);
+            base.OnException(filterContext);
+        }
     }
 
 

@@ -189,6 +189,9 @@
     <File Include="Areas/JoinUs/Views/Web.config">
       <publishTime>10/18/2015 18:28:54</publishTime>
     </File>
+    <File Include="Areas/Login/CSS/HeadAndFoot.css">
+      <publishTime>10/20/2015 20:14:42</publishTime>
+    </File>
     <File Include="Areas/Login/CSS/Index.css">
       <publishTime>10/18/2015 18:28:54</publishTime>
     </File>
@@ -231,14 +234,20 @@
     <File Include="Areas/Login/JS/sketch.min.js">
       <publishTime>10/18/2015 18:28:54</publishTime>
     </File>
+    <File Include="Areas/Login/Views/Login/ForgetPwd.cshtml">
+      <publishTime>10/20/2015 19:44:37</publishTime>
+    </File>
     <File Include="Areas/Login/Views/Login/Index.cshtml">
-      <publishTime>10/18/2015 18:28:54</publishTime>
+      <publishTime>10/19/2015 21:12:18</publishTime>
     </File>
     <File Include="Areas/Login/Views/Login/Index2.cshtml">
       <publishTime>10/18/2015 18:28:54</publishTime>
     </File>
     <File Include="Areas/Login/Views/Login/MainPage.cshtml">
       <publishTime>10/18/2015 18:28:54</publishTime>
+    </File>
+    <File Include="Areas/Login/Views/Login/ModifyPwd.cshtml">
+      <publishTime>10/20/2015 20:17:22</publishTime>
     </File>
     <File Include="Areas/Login/Views/Login/Welcome.cshtml">
       <publishTime>10/18/2015 18:28:54</publishTime>
@@ -424,13 +433,13 @@
       <publishTime>10/18/2015 18:28:54</publishTime>
     </File>
     <File Include="Areas/Permission/Views/JS/Permission.js">
-      <publishTime>10/18/2015 18:28:54</publishTime>
+      <publishTime>10/19/2015 19:49:33</publishTime>
     </File>
     <File Include="Areas/Permission/Views/Permission/HandlePermission.cshtml">
       <publishTime>10/18/2015 18:28:54</publishTime>
     </File>
     <File Include="Areas/Permission/Views/Permission/PerIndex.cshtml">
-      <publishTime>10/18/2015 18:28:54</publishTime>
+      <publishTime>10/19/2015 19:49:41</publishTime>
     </File>
     <File Include="Areas/Permission/Views/Role/ReallyDelMsg.cshtml">
       <publishTime>10/18/2015 18:28:54</publishTime>
@@ -517,7 +526,7 @@
       <publishTime>10/18/2015 18:28:54</publishTime>
     </File>
     <File Include="Areas/PersonalManger/Views/EntryPosition/EntryIndex.cshtml">
-      <publishTime>10/18/2015 18:28:54</publishTime>
+      <publishTime>10/19/2015 20:50:05</publishTime>
     </File>
     <File Include="Areas/PersonalManger/Views/Web.config">
       <publishTime>10/18/2015 18:28:54</publishTime>
@@ -1864,10 +1873,10 @@
       <publishTime>10/19/2015 16:17:24</publishTime>
     </File>
     <File Include="bin/Duty.dll">
-      <publishTime>10/19/2015 16:19:37</publishTime>
+      <publishTime>10/19/2015 21:05:26</publishTime>
     </File>
     <File Include="bin/Duty.pdb">
-      <publishTime>10/19/2015 16:19:37</publishTime>
+      <publishTime>10/19/2015 21:05:25</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>10/18/2015 18:28:50</publishTime>
@@ -1897,10 +1906,10 @@
       <publishTime>10/18/2015 18:29:06</publishTime>
     </File>
     <File Include="bin/Login.dll">
-      <publishTime>10/19/2015 16:19:30</publishTime>
+      <publishTime>10/20/2015 19:30:45</publishTime>
     </File>
     <File Include="bin/Login.pdb">
-      <publishTime>10/19/2015 16:19:29</publishTime>
+      <publishTime>10/20/2015 19:30:45</publishTime>
     </File>
     <File Include="bin/Message.dll">
       <publishTime>10/19/2015 16:19:39</publishTime>
@@ -1939,10 +1948,10 @@
       <publishTime>10/19/2015 16:19:37</publishTime>
     </File>
     <File Include="bin/PersonalManger.dll">
-      <publishTime>10/19/2015 16:19:36</publishTime>
+      <publishTime>10/19/2015 20:52:21</publishTime>
     </File>
     <File Include="bin/PersonalManger.pdb">
-      <publishTime>10/19/2015 16:19:35</publishTime>
+      <publishTime>10/19/2015 20:52:21</publishTime>
     </File>
     <File Include="bin/Spring.Core.dll">
       <publishTime>10/18/2015 18:28:50</publishTime>
@@ -1984,10 +1993,10 @@
       <publishTime>10/19/2015 16:19:38</publishTime>
     </File>
     <File Include="bin/UI.dll">
-      <publishTime>10/19/2015 16:19:44</publishTime>
+      <publishTime>10/20/2015 20:12:25</publishTime>
     </File>
     <File Include="bin/UI.pdb">
-      <publishTime>10/19/2015 16:19:43</publishTime>
+      <publishTime>10/20/2015 20:12:25</publishTime>
     </File>
     <File Include="bin/zh-Hans/Microsoft.QualityTools.Testing.Fakes.resources.dll">
       <publishTime>10/05/2013 04:12:50</publishTime>

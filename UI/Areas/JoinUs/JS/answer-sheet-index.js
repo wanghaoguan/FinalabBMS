@@ -1,36 +1,21 @@
 ﻿/* 窗口载入绑定事件 */
 $(function () {
+
+    var allidArr = "";
+    var Arr="";
     getPageDateDefaul();
    
-    
-
-    
-    $(function () {
+   
         $("#prev").click(function () {
             prev();
-
         });
-        var flag = $("#chk_all").is(':checked');
-        $("[name=chk_list]:checkbox").each(function () {
-            if (flag) {
-                $(this).attr("checked", true);
-            } else {
-                $(this).attr("checked", false);
-            }
-        });
-    });
-    //$("#prev").click(function () {
-    //    prev();
-
-    //});
-    $("#next").click(function () {
+   
+    $("#next").click(function () {     
         next();
-      
     });
 
     $("#first").click(function () {
-        first();
-       
+        first();       
     });
 
     $("#last").click(function () {
@@ -43,6 +28,7 @@ $(function () {
     //全选/反选
     $("#chk_all").click(function () {
         var flag = $(this).is(':checked');
+       
         $("[name=chk_list]:checkbox").each(function () {
             if (flag) {
                 $(this).attr("checked", true);
@@ -50,6 +36,7 @@ $(function () {
                 $(this).attr("checked", false);
             }
         });
+      
     });
     //发布试卷
     
@@ -63,6 +50,11 @@ $(function () {
             $("[name=chk_list]:checkbox").each(function () {
                 if ($(this).is(':checked')) {
                     idArr += $(this).val() + ",";
+                    var idarr = ""
+                    for (var i = 0; i < arr.length; i++) {
+                        idarr = arr[i] + ",";
+                    }
+                    idarr = idarr + idArr;
                    
                 }
             });
@@ -88,8 +80,16 @@ $(function () {
             if (idArr == "") {
                 alert("你还没选呢！");
             } else {
+                var idarr="";
                 var pageIndexNow = $("#page_index_now").val();
-                window.location = "/JoinUs/AnswerSheet/ExportWord?idArr=" + idArr + "&pageIndex=" + pageIndexNow;
+                strarr = idArr.split(",");
+               
+                for (var i = 0; i < arr.length; i++)
+                {
+                    idarr = arr[i] + ",";
+                }
+                idarr = idarr + idArr;
+                window.location = "/JoinUs/AnswerSheet/ExportWord?idArr=" + idarr + "&pageIndex=" + pageIndexNow;
                 //$.getJSON("/JoinUs/AnswerSheet/Toword?idArr=" + idArr + "&pageIndex=" + pageIndexNow, function (jsonObj) {
                 //    if (jsonObj.Statu == "ok") {
 
@@ -113,7 +113,8 @@ $(function () {
 
 /* 获取分页数据（默认页容量为10） */
 function getPageData(pageIndex) {
-    $.getJSON("/JoinUs/AnswerSheet/GetAnswerSheetInfo", "pageIndex=" + pageIndex + "&pageSize=10", function (jsonObj) {
+    var count = $("#count").val();
+    $.getJSON("/JoinUs/AnswerSheet/GetAnswerSheetInfo", "pageIndex=" + pageIndex + "&pageSize=10&count="+count, function (jsonObj) {
         if (jsonObj.Statu == "ok") {
             //隐藏域存储信息
             $("#page_index_now").val(pageIndex);
@@ -136,17 +137,32 @@ function getPageDateDefaul() {
     getPageData(pageIndex);
 }
 
+var arr = [];
 /* json数据放入表格 */
 function jsonIntoTb(list) {
     //清空table
     $("tbody").empty();
     var htmlStr;
+   
+   // var arr = new Array();
     //生成htmlStr
     var j = ($("#page_index_now").val() - 1) * 10 + 1;
     for (var i = 0; i < list.length; i++) {
 
         htmlStr += "<tr>";
-        htmlStr += "<td><input type='checkbox' name='chk_list' value='" + list[i].InterviewerInfo.ID + "' /></td>";
+        var isCheck = 0;
+        for (var k = 0; k < arr.length; k++) {
+            if (list[i].InterviewerInfo.ID == arr[k]) {
+                isCheck = 1;
+            }
+        }
+        if (isCheck == 1) {
+            htmlStr += "<td><input type='checkbox' checked name='chk_list' value='" + list[i].InterviewerInfo.ID + "' /></td>";
+        } else {
+            htmlStr += "<td><input type='checkbox'  name='chk_list' value='" + list[i].InterviewerInfo.ID + "' /></td>";
+        }
+
+      
         htmlStr += "<td>" + j++ + "</td>";
         htmlStr += "<td>" + list[i].ID + "</td>";
         var info = list[i].InterviewerInfo;
@@ -199,6 +215,30 @@ function pagerChanged(obj) {
 
 /* 上一页 */
 function prev() {
+    var table = document.getElementById("tbody_list").childNodes;
+    for (var i = 0; i < 10; i++) {
+        var checkEle = table[i].childNodes[0].firstChild;
+        if (checkEle.checked == true) {
+            var len = arr.length;
+            //arr[len] = checkEle.value;
+            for (var j = 0; j <=arr.length; j++) {
+                if (arr[j] != checkEle.value) {
+                    arr[len] = checkEle.value;
+                }
+            }
+        }
+        if (checkEle.checked == false) {
+
+            for (var k = 0; k <= arr.length; k++) {
+                if (arr[k] == checkEle.value) {
+                    // arr[i] = arr[i].replace(checkEle.value,"");
+                    //alert(arr[k]);
+                    arr.splice((arr.indexOf(arr[k])), 1);
+                }
+            }
+        }
+    }
+
     
     var pageIndexNow = $("#page_index_now").val();
     var pageIndexPrev = parseInt(pageIndexNow) - 1;
@@ -212,6 +252,39 @@ function prev() {
 
 /* 下一页 */
 function next() {
+   
+    var table = document.getElementById("tbody_list").childNodes;
+    for (var i = 0; i < 10; i++) {
+        var checkEle = table[i].childNodes[0].firstChild;
+        
+      
+        if (checkEle.checked == true) {
+            
+           var len = arr.length;
+            //arr[len] = checkEle.value;
+            //第一个值没有比较的对象，报错，卡死。。
+            for (var j = 0; j <=arr.length; j++) {
+                if (arr[j] != checkEle.value) {
+                    arr[len] = checkEle.value;
+                  
+                }
+            }
+
+        } 
+        if (checkEle.checked == false) {
+            
+            for (var k = 0; k <=arr.length; k++)
+            {
+                if (arr[k] == checkEle.value)
+                {
+                    // arr[i] = arr[i].replace(checkEle.value,"");
+                    //alert(arr[k]);
+                    arr.splice((arr.indexOf(arr[k])), 1);
+                }
+            }
+        }
+    }
+
     var pageIndexNow = $("#page_index_now").val();
     var pageIndexNext = parseInt(pageIndexNow) + 1;
     var pageCount = $("#page_count").val();

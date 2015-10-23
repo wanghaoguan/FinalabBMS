@@ -1397,7 +1397,7 @@ namespace FinalWeb.JoinUs
         public FileResult TotalToWord()
         {
 
-
+            OperateContext.Current.BLLSession.IMemberInformationBLL.GetListBy(u=>u.StuNum=="21",u=>u.StuNum);
             //byte[] byteArray = null;
             StringBuilder sb = new StringBuilder();
             sb.Append("<!DOCTYPE html>");

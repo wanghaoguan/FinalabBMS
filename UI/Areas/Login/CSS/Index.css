@@ -19,7 +19,7 @@
     top: 0px;
     width: 100%;
     min-width:650px;
-    height: 46px;
+    height: 52px;
     z-index: 9999;
     overflow: hidden;
     background-color: #003466;
@@ -27,7 +27,7 @@
 /*logo and name*/
 #header-left {
     float: left;
-    height: 46px;
+    height: 52px;
     width: 184px;
     cursor:pointer;
 }
@@ -57,7 +57,7 @@
 /*header right-------------------------------------------*/
 #header-right {
     float: left;
-    height: 46px;
+    height: 52px;
     min-width: 451px;
 }
 /*搜索框、头像、退出键...*/
@@ -142,7 +142,7 @@
 #left {
     position: absolute;
     left: 0px;
-    top: 46px;
+    top: 52px;
     width: 185px;
     min-height: 100px;
     z-index: 9998;
